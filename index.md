@@ -3,10 +3,11 @@ layout: default
 title: "Oleks' Lair"
 ---
 
-Welcome to my hacker blog.  
+# Welcome to Oleks’ Hacker Lair 👾
 
-- [About](/about/)  
-- [Projects](/projects/)  
+- [About](/about/)
+- [Projects](/projects/)
+- [Latest Commits](/commits/)
 
 ## Latest Posts
 {% for post in site.posts %}
