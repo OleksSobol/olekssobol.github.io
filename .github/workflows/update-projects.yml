@@ -1,0 +1,56 @@
+name: Update Projects Page
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # every day at 1AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update_projects:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch GitHub repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "---" > projects.md
+          echo "layout: default" >> projects.md
+          echo "title: Projects" >> projects.md
+          echo "permalink: /projects/" >> projects.md
+          echo "---" >> projects.md
+          echo "" >> projects.md
+          echo "# My Projects" >> projects.md
+          
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/OleksSobol/repos?per_page=100&sort=updated" \
+            | jq -r '.[].name')
+          
+          for repo in $REPOS; do
+            DESCRIPTION=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/OleksSobol/$repo" \
+              | jq -r '.description // "No description"')
+            URL=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/OleksSobol/$repo" \
+              | jq -r '.html_url')
+            echo "## [$repo]($URL)" >> projects.md
+            echo "$DESCRIPTION" >> projects.md
+            echo "" >> projects.md
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add projects.md
+          git commit -m "Update projects page" || echo "No changes"
+          git push
