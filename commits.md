@@ -1,3 +1,9 @@
+---
+layout: default
+title: Latest Commits
+permalink: /commits/
+---
+
 # Latest Commits Across All Projects
 ## 100-days-of-code
 - Update log.md (2018-04-20)
@@ -167,6 +173,7 @@ Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.c
 - docs: fix simple typo, shat -> that (#98)
 
 There is a small typo in source/conf.py.
+
 
 Should read `that` rather than `shat`. (2021-09-03)
 - rearrange sections (2021-05-28)
