@@ -1,11 +1,14 @@
 ---
-layout: home
+layout: default
 title: "Oleks' Lair"
 ---
 
 Welcome to my hacker blog.  
 
-- Check out my [About](/about/) page  
-- See what I’m building on [Projects](/projects/)  
-- Or read the latest posts below 👇
+- [About](/about/)  
+- [Projects](/projects/)  
 
+## Latest Posts
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%b %d, %Y" }}
+{% endfor %}
