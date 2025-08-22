@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My First Hacker Post"
-date: 2025-08-21 22:00:00 -0700
+title: "My First  Post"
+date: 2025-08-22 11:00:00 -0700
 categories: hacking random
 ---
 
