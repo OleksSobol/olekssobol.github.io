@@ -1,0 +1,41 @@
+name: Update Latest Commits
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update_commits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch all public repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "# Latest Commits Across All Projects" > commits.md
+          # Fetch all your public repos
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/OleksSobol/repos?per_page=100" \
+            | jq -r '.[].name')
+          
+          for repo in $REPOS; do
+            echo "## $repo" >> commits.md
+            curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/OleksSobol/$repo/commits?per_page=5" \
+              | jq -r '.[] | "- \(.commit.message) (\(.commit.author.date | split("T")[0]))"' >> commits.md
+            echo "" >> commits.md
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add commits.md
+          git commit -m "Update latest commits" || echo "No changes to commit"
+          git push
