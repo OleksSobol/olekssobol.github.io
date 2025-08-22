@@ -1,4 +1,10 @@
-# Header
-## Sub Header
+---
+layout: page
+title: About
+permalink: /about/
+---
 
-### I love Cathy!
+Hi, I’m Oleks 👋  
+
+I break stuff, automate it, and sometimes make it pretty again.  
+Expect code, drones, and dirt bikes.
