@@ -5,6 +5,9 @@ permalink: /projects/
 ---
 
 # My Projects
+## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
+My version of Copy of patatap.com
+
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 No description
 
@@ -102,9 +105,6 @@ The MEAN stack uses Mongo, Express, Angular(6) and Node for simple and scalable 
 A guide to contributing to open source
 
 ## [100-days-of-code](https://github.com/OleksSobol/100-days-of-code)
-No description
-
-## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 No description
 
 ## [freeCodeCamp](https://github.com/OleksSobol/freeCodeCamp)
