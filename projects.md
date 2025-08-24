@@ -5,11 +5,11 @@ permalink: /projects/
 ---
 
 # My Projects
-## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
-My version of Copy of patatap.com
-
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 No description
+
+## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
+My version of Copy of patatap.com
 
 ## [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
 No description
