@@ -33,3 +33,10 @@ excerpt: >
 {% else %}
 <p>No posts yet. Stay tuned.</p>
 {% endif %}
+
+<!--BOOTDEV_STATS_START-->
+### Boot.dev Stats
+- Level: 0
+- XP Today: 0
+- Total XP: 0
+<!--BOOTDEV_STATS_END-->
