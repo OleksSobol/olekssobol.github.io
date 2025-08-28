@@ -55,4 +55,10 @@ jobs:
           git config user.email "actions@github.com"
           git add projects.md
           git commit -m "Update projects page" || echo "No changes to commit"
-          git push
+          
+          # Fetch remote changes and rebase
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          
+          # Push after successful rebase
+          git push origin main
