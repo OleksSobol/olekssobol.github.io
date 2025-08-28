@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /
 title: "Oleks’ Hacker Lair 👾"
 header:
