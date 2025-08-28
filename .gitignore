@@ -1,0 +1,29 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.sass-cache
+.idea/
+.vscode/
+*.iml
+
+# Jekyll build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / Ruby
+.bundle/
+vendor/
+Gemfile.lock
+Gemfile
+
+# Node (if you add Tailwind or npm stuff later)
+node_modules/
+package-lock.json
+yarn.lock

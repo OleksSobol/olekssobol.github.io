@@ -17,8 +17,6 @@ excerpt: >
   Welcome to my digital playground — projects, experiments, and late-night hacks.
 ---
 
-{% include feature_row id="quicklinks" %}
-
 # Latest Posts
 {%- if site.posts.size > 0 -%}
 <ul>

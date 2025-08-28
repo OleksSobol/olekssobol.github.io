@@ -1,13 +1,14 @@
 title: "Oleks Sobol"
 name: "Oleks Sobol"
-description: "Personal site, projects, and random experiments"
+description: "Projects, experiments, and late-night hacks."
 url: "https://olekssobol.github.io"
-baseurl: "" # leave empty since this is a user site
+baseurl: ""  
 
-remote_theme: "mmistakes/minimal-mistakes@4.26.0" # latest stable
-minimal_mistakes_skin: "dark"
+# Minimal Mistakes via remote theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.0"
+minimal_mistakes_skin: "dark" # try: default, air, aqua, neon, etc.
 
-
+# Plugins supported by GitHub Pages
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
@@ -18,15 +19,33 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 
-# Navigation
-nav:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "Commits"
-    url: /commits/
-  - title: "Blog"
-    url: /blog/
-  - title: "About"
-    url: /about/
+# 
+author:
+  name: "Oleks Sobol"
+  avatar: "/assets/images/avatar.png" # add if you want
+  bio: "Jack of all trades; breaks production only on Tuesdays."
+  location: "USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/OleksSobol"
+
+# Defaults for pages/posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Collections (optional)
+collections:
+  posts:
+    output: true
