@@ -1,15 +1,35 @@
 ---
-layout: default
-title: "Oleks' Lair"
+layout: splash
+permalink: /
+title: "Oleks’ Hacker Lair 👾"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/code-bg.jpg
+  actions:
+    - label: "About Me"
+      url: "/about/"
+    - label: "Projects"
+      url: "/projects/"
+    - label: "Latest Commits"
+      url: "/commits/"
+excerpt: >
+  Welcome to my digital playground — projects, experiments, and late-night hacks.
 ---
 
-# Welcome to Oleks’ Hacker Lair 👾
+{% include feature_row id="quicklinks" %}
 
-- [About](/about/)
-- [Projects](/projects/)
-- [Latest Commits](/commits/)
-
-## Latest Posts
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%b %d, %Y" }}
-{% endfor %}
+# Latest Posts
+{%- if site.posts.size > 0 -%}
+<ul>
+  {%- for post in site.posts limit:5 -%}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small> — {{ post.date | date: "%b %d, %Y" }}</small>
+  </li>
+  {%- endfor -%}
+</ul>
+<p><a href="/blog/">See all posts →</a></p>
+{%- else -%}
+<p>No posts yet. Stay tuned.</p>
+{%- endif -%}
