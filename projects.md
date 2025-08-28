@@ -1,8 +1,12 @@
 ---
-layout: default
-title: Projects
+layout: single
+title: "Projects"
 permalink: /projects/
 ---
+
+- [Latest Commits](/commits/)
+- [GitHub Profile](https://github.com/OleksSobol)
+
 
 # My Projects
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
