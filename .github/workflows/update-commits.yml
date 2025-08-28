@@ -29,7 +29,7 @@ jobs:
 
           FILE="commits.md"
 
-          # Write front matter and header
+          # Front matter
           {
             echo "---"
             echo "layout: single"
@@ -52,11 +52,12 @@ jobs:
             exit 0
           fi
 
-          # Loop through repos and fetch latest 5 commits
+          # Loop through repos
           for repo in $REPOS; do
             URL="https://github.com/${USERNAME}/${repo}"
             echo "## [$repo]($URL)" >> $FILE
 
+            # Fetch latest 5 commits
             COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/${USERNAME}/${repo}/commits?per_page=5" \
               | jq -r '.[] | "- " + (.commit.message // "No message")')
@@ -72,7 +73,7 @@ jobs:
           git add commits.md
           git commit -m "Update latest commits" || echo "No changes to commit"
           
-          # Fetch and rebase remote to avoid rejection
+          # Fetch remote changes and rebase to avoid rejection
           git fetch origin main
           git rebase origin/main || git rebase --abort
           

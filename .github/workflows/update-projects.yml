@@ -38,13 +38,16 @@ jobs:
           for repo in $REPOS; do
             DESCRIPTION=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/OleksSobol/$repo" \
-              | jq -r '.description // "No description"' | sed 's/[\r\n]/ /g')
+              | jq -r '.description // ""' | sed 's/[\r\n]/ /g')
             URL=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/OleksSobol/$repo" \
               | jq -r '.html_url')
-            echo "### [$repo]($URL)" >> temp.md
-            echo "$DESCRIPTION" >> temp.md
-            echo "" >> temp.md
+
+            if [ -n "$DESCRIPTION" ]; then
+              echo "- [$repo]($URL) — $DESCRIPTION" >> temp.md
+            else
+              echo "- [$repo]($URL)" >> temp.md
+            fi
           done
 
           mv temp.md $PROJECTS_FILE
