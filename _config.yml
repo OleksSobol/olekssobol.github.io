@@ -5,6 +5,8 @@ url: "https://olekssobol.github.io"
 baseurl: "" # leave empty since this is a user site
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.0" # latest stable
+minimal_mistakes_skin: "dark"
+
 
 plugins:
   - jekyll-include-cache
