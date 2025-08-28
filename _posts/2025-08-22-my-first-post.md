@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "My First  Post"
 date: 2025-08-22 11:00:00 -0700
 categories: hacking random
