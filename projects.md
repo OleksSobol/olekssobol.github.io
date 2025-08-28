@@ -9,10 +9,6 @@ excerpt: "My ongoing projects and GitHub repos"
 - [Latest Commits](/commits/)
 - [GitHub Profile](https://github.com/OleksSobol)
 
-## In Progress
-- ai-agent — autonomous refactor gremlin.
-- asteroids — because pew-pew never gets old.
-
 ## GitHub Repos
 
 ### [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
