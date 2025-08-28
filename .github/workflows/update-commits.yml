@@ -32,11 +32,11 @@ jobs:
           echo "# Latest Commits Across All Projects" >> commits.md
           echo "" >> commits.md
 
-          # Collect all commits from all repos into newline-delimited JSON
+          # Collect all commits from repos you *own* (exclude forks)
           COMMITS_JSON=$(
             curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/users/OleksSobol/repos?per_page=100" \
-            | jq -r '.[].name' \
+            | jq -r '.[] | select(.fork == false) | .name' \
             | while read repo; do
                 curl -s -H "Authorization: token $GITHUB_TOKEN" \
                   "https://api.github.com/repos/OleksSobol/$repo/commits?per_page=10" \
@@ -50,7 +50,6 @@ jobs:
             "- [\(.repo)](\(.url)): \(.message) (\(.date | split(\"T\")[0]))"
           ' >> commits.md
 
-          
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
