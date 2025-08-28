@@ -2,6 +2,7 @@
 layout: single
 title: "Projects"
 permalink: /projects/
+excerpt: "My ongoing projects and GitHub repos"
 ---
 
 ## Featured
@@ -12,4 +13,5 @@ permalink: /projects/
 - ai-agent — autonomous refactor gremlin.
 - asteroids — because pew-pew never gets old.
 
-More soon™.
+## GitHub Repos
+<!-- Repos will be appended automatically by GitHub Actions -->

@@ -12,45 +12,47 @@ jobs:
   update_projects:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
 
       - name: Install jq
         run: sudo apt-get install -y jq
 
-      - name: Fetch GitHub repos
+      - name: Update projects.md with GitHub repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "---" > projects.md
-          echo "layout: default" >> projects.md
-          echo "title: Projects" >> projects.md
-          echo "permalink: /projects/" >> projects.md
-          echo "---" >> projects.md
-          echo "" >> projects.md
-          echo "# My Projects" >> projects.md
+          PROJECTS_FILE="projects.md"
           
+          # Keep manual content up to "GitHub Repos" header
+          awk '/## GitHub Repos/{print; exit}1' $PROJECTS_FILE > temp.md
+          echo "" >> temp.md
+
+          # Fetch repos
           REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/users/OleksSobol/repos?per_page=100&sort=updated" \
             | jq -r '.[].name')
-          
+
           for repo in $REPOS; do
             DESCRIPTION=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/OleksSobol/$repo" \
-              | jq -r '.description // "No description"')
+              | jq -r '.description // "No description"' | sed 's/[\r\n]/ /g')
             URL=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/OleksSobol/$repo" \
               | jq -r '.html_url')
-            echo "## [$repo]($URL)" >> projects.md
-            echo "$DESCRIPTION" >> projects.md
-            echo "" >> projects.md
+            echo "### [$repo]($URL)" >> temp.md
+            echo "$DESCRIPTION" >> temp.md
+            echo "" >> temp.md
           done
+
+          mv temp.md $PROJECTS_FILE
 
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add projects.md
-          git commit -m "Update projects page" || echo "No changes"
+          git commit -m "Update projects page" || echo "No changes to commit"
           git push

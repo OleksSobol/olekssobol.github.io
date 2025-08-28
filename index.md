@@ -17,17 +17,19 @@ excerpt: >
   Welcome to my digital playground — projects, experiments, and late-night hacks.
 ---
 
-# Latest Posts
-{%- if site.posts.size > 0 -%}
-<ul>
-  {%- for post in site.posts limit:5 -%}
+## Latest Posts
+
+{% if site.posts.size > 0 %}
+<ul class="latest-posts">
+  {% for post in site.posts limit:5 %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <small> — {{ post.date | date: "%b %d, %Y" }}</small>
   </li>
-  {%- endfor -%}
+  {% endfor %}
 </ul>
+
 <p><a href="/blog/">See all posts →</a></p>
-{%- else -%}
+{% else %}
 <p>No posts yet. Stay tuned.</p>
-{%- endif -%}
+{% endif %}
