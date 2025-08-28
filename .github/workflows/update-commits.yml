@@ -42,10 +42,13 @@ jobs:
                   | jq -r ".[] | {repo: \"$repo\", message: .commit.message, date: .commit.author.date, url: .html_url}" 
               done
           )
-
-          # Sort all commits by date descending
-          echo "$COMMITS_JSON" | jq -s 'sort_by(.date) | reverse[] | "- [\(.repo)](\(.url)): \(.message) (\(.date | split(\"T\")[0]))"' >> commits.md
-
+          
+          # Sort all commits by date descending and format
+          echo "$COMMITS_JSON" | jq -s '
+          sort_by(.date) | reverse | .[] |
+          "- [\(.repo)](\(.url)): \(.message) (\(.date | split("T")[0]))"
+          ' >> commits.md
+          
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
