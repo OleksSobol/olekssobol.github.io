@@ -1,26 +1,30 @@
-title: "Oleks’ Lair"
-description: "Dev, drones, dirt bikes, and dark humor"
-remote_theme: pages-themes/hacker@v0.2.0
+title: "Oleks Sobol"
+name: "Oleks Sobol"
+description: "Personal site, projects, and random experiments"
+url: "https://olekssobol.github.io"
+baseurl: "" # leave empty since this is a user site
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.0" # latest stable
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
 markdown: kramdown
-highlighter: rouge
+paginate: 5
+paginate_path: "/page:num/"
 
-
-# Where your posts live
-collections:
-  posts:
-    output: true
-
-# Simple navigation menu (Hacker theme doesn’t auto-render, so you’ll use links in your pages/layouts)
+# Navigation
 nav:
-  - name: "Home"
-    link: "/"
-  - name: "About"
-    link: "/about/"
-  - name: "Projects"
-    link: "/projects/"
-
-# Optional tweaks
-markdown: kramdown
-highlighter: rouge
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Commits"
+    url: /commits/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
