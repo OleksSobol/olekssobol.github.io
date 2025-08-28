@@ -52,17 +52,17 @@ jobs:
             exit 0
           fi
 
-          # Loop through repos and fetch latest 5 commits per repo
+          # Loop through repos and fetch latest 5 commits
           for repo in $REPOS; do
+            URL="https://github.com/${USERNAME}/${repo}"
+            echo "## [$repo]($URL)" >> $FILE
+
             COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/${USERNAME}/${repo}/commits?per_page=5" \
-              | jq -r '.[] | "- [\(.commit.message // "No message")](\(.html_url)) (\(.commit.author.date | split("T")[0]))"')
+              | jq -r '.[] | "- " + (.commit.message // "No message")')
 
-            if [ -n "$COMMITS" ]; then
-              echo "## [$repo](https://github.com/${USERNAME}/${repo})" >> $FILE
-              echo "$COMMITS" >> $FILE
-              echo "" >> $FILE
-            fi
+            echo "$COMMITS" >> $FILE
+            echo "" >> $FILE
           done
 
       - name: Commit changes
@@ -71,4 +71,9 @@ jobs:
           git config user.email "actions@github.com"
           git add commits.md
           git commit -m "Update latest commits" || echo "No changes to commit"
-          git push
+          
+          # Fetch and rebase remote to avoid rejection
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          
+          git push origin main
