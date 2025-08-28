@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "My Boot.dev Journey: From Python Basics to Building AI Agents"
 date: 2025-08-27 12:00:00 -0700
 categories: bootdev progress
