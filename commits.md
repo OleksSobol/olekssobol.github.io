@@ -56,11 +56,11 @@ Unsed scripts
 - Update README.md
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- updated both .yml workflowes
-- updated projects.md
-- updated commints.yml
-- Update projects page
-- updated avatar
+- Update Boot.dev stats
+- Delete _posts/2025-08-27-new-test.md
+- Update Boot.dev stats
+- moved .yml
+- auto boot.dev xp update
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
