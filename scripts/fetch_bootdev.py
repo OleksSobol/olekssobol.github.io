@@ -12,22 +12,19 @@ with sync_playwright() as p:
     page = browser.new_page()
     page.goto(URL, wait_until="networkidle")
 
-    # Debug: save rendered HTML to see structure
-    Path("debug.html").write_text(page.content())
+    # Selectors from inspected DOM
+    xp_text = page.locator("span.ml-2.text-xs").first.inner_text()
+    level_text = page.locator("span.font-bold.text-white").first.inner_text()
 
-    # Adjust selectors based on actual DOM
-    # You might need to tweak these by inspecting debug.html
-    level_el = page.locator("text=Level").first
-    xp_el = page.locator("text=XP").first
+    # Clean values
+    def to_int(text):
+        digits = "".join(filter(str.isdigit, text))
+        return int(digits) if digits else 0
 
-    level_text = level_el.inner_text() if level_el.count() > 0 else "0"
-    xp_text = xp_el.inner_text() if xp_el.count() > 0 else "0"
+    xp_total = to_int(xp_text)
+    level = to_int(level_text)
 
-    # Clean numbers
-    level = int("".join(filter(str.isdigit, level_text)))
-    xp_total = int("".join(filter(str.isdigit, xp_text)))
-
-    # Load old data
+    # Load yesterday’s data
     Path("_data").mkdir(exist_ok=True)
     data_file = Path("_data/bootdev.json")
     try:
@@ -46,5 +43,29 @@ with sync_playwright() as p:
         "last_updated": datetime.utcnow().isoformat()
     }
     data_file.write_text(json.dumps(data, indent=2))
+
+    # Update index.md
+    snippet = f"""<!--BOOTDEV_STATS_START-->
+### Boot.dev Stats
+- Level: {level}
+- XP Today: {xp_today}
+- Total XP: {xp_total}
+<!--BOOTDEV_STATS_END-->"""
+
+    index_file = "index.md"
+    if os.path.exists(index_file):
+        with open(index_file) as f:
+            content = f.read()
+        if "<!--BOOTDEV_STATS_START-->" in content:
+            start = content.index("<!--BOOTDEV_STATS_START-->")
+            end = content.index("<!--BOOTDEV_STATS_END-->") + len("<!--BOOTDEV_STATS_END-->")
+            content = content[:start] + snippet + content[end:]
+        else:
+            content += "\n" + snippet
+        with open(index_file, "w") as f:
+            f.write(content)
+    else:
+        with open(index_file, "w") as f:
+            f.write(snippet)
 
     browser.close()
