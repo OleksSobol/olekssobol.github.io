@@ -57,10 +57,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
+- Update latest commits
+- Update Boot.dev stats
 - Update Boot.dev stats
 - Update fetch_bootdev.py
-- Update fetch_bootdev.py
-- Update update-bootdev.yml
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
