@@ -12,10 +12,10 @@ excerpt: "My ongoing projects and GitHub repos"
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
+- [python-games](https://github.com/OleksSobol/python-games)
 - [PatatapClone](https://github.com/OleksSobol/PatatapClone) — My version of Copy of patatap.com
 - [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
 - [DHCP-LEASE-RUNNER---DLR](https://github.com/OleksSobol/DHCP-LEASE-RUNNER---DLR)
-- [python-games](https://github.com/OleksSobol/python-games)
 - [ai-agent](https://github.com/OleksSobol/ai-agent)
 - [asteroids](https://github.com/OleksSobol/asteroids) — Asteroid pygame
 - [bookbot](https://github.com/OleksSobol/bookbot)
