@@ -57,8 +57,8 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update Boot.dev stats
 - Update latest commits
+- Update Boot.dev stats
 - Update Boot.dev stats
 - Update latest commits
 
@@ -68,6 +68,7 @@ Unsed scripts
 - finito
 
 ## [python-games](https://github.com/OleksSobol/python-games)
+- Cleaning up code
 - Create blackjack.py
 - README.md created with copilot
 - Created simple guessing game
