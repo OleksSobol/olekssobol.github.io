@@ -8,6 +8,7 @@ excerpt: "My ongoing projects and GitHub repos"
 ## Featured
 - [Latest Commits](/commits/)
 - [GitHub Profile](https://github.com/OleksSobol)
+- Working on Expense/ Income App with Flutter
 
 ## GitHub Repos
 
