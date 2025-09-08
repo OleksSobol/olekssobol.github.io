@@ -12,7 +12,7 @@ excerpt: "My ongoing projects and GitHub repos"
 
 ## GitHub Repos
 
-- [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
+- [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
 - [python-games](https://github.com/OleksSobol/python-games)
 - [PatatapClone](https://github.com/OleksSobol/PatatapClone) — My version of Copy of patatap.com
 - [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
