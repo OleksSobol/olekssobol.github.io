@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "From Network Engineer to Software Engineer: My Journey Back to Code"
-date: 2025-09-09 10:30:00 -0700
+date: 2025-09-08 19:30:00 -0700
 categories: career programming
 ---
 
