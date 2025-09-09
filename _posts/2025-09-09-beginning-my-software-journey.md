@@ -5,7 +5,7 @@ date: 2025-09-08 19:30:00 -0700
 categories: career programming
 ---
 
-I just got back from a 3-month backpacking trip on the **Continental Divide Trail (CDT)**.  
+I just got back from a month backpacking trip on the **Continental Divide Trail (CDT)**.  
 Those long miles gave me time to think, and I realized it’s time for a big change:  
 I’m moving from **Network Engineering** into **Software Engineering**.  
 
