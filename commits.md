@@ -56,10 +56,10 @@ Unsed scripts
 - Update README.md
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- Update projects.md
+- added basic admin panel
+- added gemfile
 - Update Boot.dev stats
-- Update latest commits
-- Update Boot.dev stats
+- Update projects page
 - Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
