@@ -20,8 +20,8 @@ _site/
 # Bundler / Ruby
 .bundle/
 vendor/
-Gemfile.lock
-Gemfile
+# Gemfile.lock
+# Gemfile
 
 # Node (if you add Tailwind or npm stuff later)
 node_modules/
