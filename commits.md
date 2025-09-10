@@ -56,11 +56,11 @@ Unsed scripts
 - Update README.md
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- added basic admin panel
-- added gemfile
 - Update Boot.dev stats
-- Update projects page
-- Update latest commits
+- Update 2025-09-09-beginning-my-software-journey.md
+- Update 2025-09-09-beginning-my-software-journey.md
+- Update 2025-09-09-beginning-my-software-journey.md
+- Create 2025-09-09-beginning-my-software-journey.md
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
