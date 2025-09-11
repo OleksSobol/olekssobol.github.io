@@ -57,10 +57,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
+- Update latest commits
+- Update Boot.dev stats
 - Update 2025-09-09-beginning-my-software-journey.md
 - Update 2025-09-09-beginning-my-software-journey.md
-- Update 2025-09-09-beginning-my-software-journey.md
-- Create 2025-09-09-beginning-my-software-journey.md
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
