@@ -59,8 +59,8 @@ Unsed scripts
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
-- Update 2025-09-09-beginning-my-software-journey.md
-- Update 2025-09-09-beginning-my-software-journey.md
+- Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
