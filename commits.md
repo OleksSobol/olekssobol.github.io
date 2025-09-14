@@ -48,6 +48,9 @@ Unsed scripts
 - Update README.md
 - finished - almost
 
+## [k8s-course](https://github.com/OleksSobol/k8s-course)
+- init
+
 ## [List-of-Friends](https://github.com/OleksSobol/List-of-Friends)
 - Update README.md
 - Update README.md
@@ -57,10 +60,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update projects page
+- Update about.md
 - Update latest commits
 - Update Boot.dev stats
-- Update latest commits
+- Update projects page
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
