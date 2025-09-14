@@ -13,6 +13,7 @@ excerpt: "My ongoing projects and GitHub repos"
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
+- [k8s-course](https://github.com/OleksSobol/k8s-course)
 - [Projects](https://github.com/OleksSobol/Projects) — Assorted Projects and Testing Environment
 - [python-games](https://github.com/OleksSobol/python-games)
 - [PatatapClone](https://github.com/OleksSobol/PatatapClone) — My version of Copy of patatap.com
