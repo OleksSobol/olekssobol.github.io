@@ -41,6 +41,9 @@ Refactored code
 
 Unsed scripts
 
+## [docker-course](https://github.com/OleksSobol/docker-course)
+- first commit
+
 ## [freeCodeCamp](https://github.com/OleksSobol/freeCodeCamp)
 - finished couple tasks
 - Merge branch 'master' of https://github.com/OleksSobol/freeCodeCamp
@@ -60,10 +63,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update about.md
+- Update projects page
 - Update latest commits
 - Update Boot.dev stats
-- Update projects page
+- Update about.md
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
