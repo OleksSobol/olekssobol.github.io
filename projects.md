@@ -13,7 +13,6 @@ excerpt: "My ongoing projects and GitHub repos"
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
-- [docker-course](https://github.com/OleksSobol/docker-course)
 - [k8s-course](https://github.com/OleksSobol/k8s-course)
 - [Projects](https://github.com/OleksSobol/Projects) — Assorted Projects and Testing Environment
 - [python-games](https://github.com/OleksSobol/python-games)
