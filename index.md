@@ -37,6 +37,6 @@ excerpt: >
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 - Level: 59
-- XP Today: 864
-- Total XP: 1998
+- XP Today: 528
+- Total XP: 2526
 <!--BOOTDEV_STATS_END-->
