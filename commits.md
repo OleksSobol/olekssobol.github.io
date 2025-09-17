@@ -59,11 +59,11 @@ Unsed scripts
 - Update README.md
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
+- Add files via upload
 - Update Boot.dev stats
 - Update projects page
 - Update latest commits
 - Update Boot.dev stats
-- Update projects page
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
