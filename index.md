@@ -40,3 +40,7 @@ excerpt: >
 - XP Today: 528
 - Total XP: 2526
 <!--BOOTDEV_STATS_END-->
+
+<p align="left">
+  <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" >
+</p>
