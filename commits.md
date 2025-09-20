@@ -60,9 +60,9 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update index.md
 - Update latest commits
 - Update Boot.dev stats
+- Update index.md
 - Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
