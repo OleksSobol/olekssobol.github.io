@@ -13,6 +13,7 @@ excerpt: "My ongoing projects and GitHub repos"
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
+- [CS50-s-Introduction-to-Computer-Science](https://github.com/OleksSobol/CS50-s-Introduction-to-Computer-Science) — My solutions to Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience.
 - [k8s-course](https://github.com/OleksSobol/k8s-course)
 - [Projects](https://github.com/OleksSobol/Projects) — Assorted Projects and Testing Environment
 - [python-games](https://github.com/OleksSobol/python-games)
