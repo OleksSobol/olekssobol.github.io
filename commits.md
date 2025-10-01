@@ -30,6 +30,9 @@ toc: false
 - update readme with a description
 - Initial commit
 
+## [CS50-s-Introduction-to-Computer-Science](https://github.com/OleksSobol/CS50-s-Introduction-to-Computer-Science)
+- Initial commit
+
 ## [DHCP-LEASE-RUNNER---DLR](https://github.com/OleksSobol/DHCP-LEASE-RUNNER---DLR)
 - Update README.md
 - Update README.md
@@ -60,10 +63,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update latest commits
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
