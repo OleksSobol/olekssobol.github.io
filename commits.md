@@ -63,10 +63,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update Boot.dev stats
+- Update projects page
 - Update latest commits
 - Update Boot.dev stats
-- Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -99,4 +99,13 @@ Add classics
 - K: merging
 - J: update classics.csv
 - I: Dune quote update v2
+
+## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- cleaning
+- Enhanced password test with quick buttons and character analysis
+- Add debug logging to auth function and test page for password troubleshooting
+- Merge pull request #2 from OleksSobol/netlify-build-failure-due-to-secre-ntl-68dd90c6e94e6911ff67638a
+
+Netlify Build Failure Due to Secrets Detection and Security Risk Mitigation
+- Netlify Build Failure Due to Secrets Detection and Security Risk Mitigation (68dd90c6e94e6911ff67638a)
 
