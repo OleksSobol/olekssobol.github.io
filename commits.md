@@ -63,10 +63,10 @@ Unsed scripts
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update projects page
 - Update latest commits
 - Update Boot.dev stats
 - Update projects page
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -101,9 +101,14 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- fix: personalize RSVP success message for 'No' responses
+
+- Dynamically update RSVP success message based on attendance selection
+- Show 'We\'ll Miss You' message for guests who cannot attend
+- Retain excited message for 'Yes' responses
+- Works for both local testing and deployed site
+- Updated css
 - compress pictures
 - kinda close to be readdy.
 - working on rvsp integration with google apps
-- change google apps script
-- change google apps script
 
