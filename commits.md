@@ -36,13 +36,11 @@ toc: false
 ## [DHCP-LEASE-RUNNER---DLR](https://github.com/OleksSobol/DHCP-LEASE-RUNNER---DLR)
 - Update README.md
 - Update README.md
+- Update README.md
 - Update utopia_manager.py
 
 Refactored code
 - Update email_manager.py
-- Delete Custom_scripts directory
-
-Unsed scripts
 
 ## [freeCodeCamp](https://github.com/OleksSobol/freeCodeCamp)
 - finished couple tasks
@@ -65,8 +63,8 @@ Unsed scripts
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
-- Update projects page
 - Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
