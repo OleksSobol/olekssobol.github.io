@@ -13,6 +13,7 @@ excerpt: "My ongoing projects and GitHub repos"
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
+- [DHCP-LEASE-RUNNER---DLR](https://github.com/OleksSobol/DHCP-LEASE-RUNNER---DLR)
 - [wedding-website](https://github.com/OleksSobol/wedding-website) — Wedding website with password protection
 - [CS50-s-Introduction-to-Computer-Science](https://github.com/OleksSobol/CS50-s-Introduction-to-Computer-Science) — My solutions to Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience.
 - [k8s-course](https://github.com/OleksSobol/k8s-course)
@@ -20,7 +21,6 @@ excerpt: "My ongoing projects and GitHub repos"
 - [python-games](https://github.com/OleksSobol/python-games)
 - [PatatapClone](https://github.com/OleksSobol/PatatapClone) — My version of Copy of patatap.com
 - [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
-- [DHCP-LEASE-RUNNER---DLR](https://github.com/OleksSobol/DHCP-LEASE-RUNNER---DLR)
 - [ai-agent](https://github.com/OleksSobol/ai-agent)
 - [asteroids](https://github.com/OleksSobol/asteroids) — Asteroid pygame
 - [bookbot](https://github.com/OleksSobol/bookbot)
