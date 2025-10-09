@@ -15,9 +15,9 @@ This is where I stash projects, experiments, and notes I’ll pretend I’ll cle
 ---
 
 ## Find Me Online
-- [LinkedIn](https://www.linkedin.com/in/oleks-sobol/)  
-- [GitHub](https://github.com/OleksSobol)  
-- [Youtube](https://www.youtube.com/@Life2freedom)  
-- [Boot.dev Progress](https://www.boot.dev/u/skelo)
+- [LinkedIn](https://www.linkedin.com/in/olekssobol/{target=_blank})  
+- [GitHub](https://github.com/OleksSobol{target=_blank})  
+- [Youtube](https://www.youtube.com/@Life2freedom{target=_blank})  
+- [Boot.dev Progress](https://www.boot.dev/u/skelo{target=_blank})
 
 ---
