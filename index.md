@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "Oleks’ Hacker Lair 👾"
+title: "Oleks’ Hacker Lair"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
