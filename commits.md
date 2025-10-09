@@ -49,9 +49,6 @@ Refactored code
 - Update README.md
 - finished - almost
 
-## [k8s-course](https://github.com/OleksSobol/k8s-course)
-- init
-
 ## [List-of-Friends](https://github.com/OleksSobol/List-of-Friends)
 - Update README.md
 - Update README.md
@@ -59,11 +56,25 @@ Refactored code
 - Update README.md
 - Update README.md
 
+## [medical-study-bot](https://github.com/OleksSobol/medical-study-bot)
+- changed model to get all answers right the way
+- Optimize quiz performance - instant feedback with background detailed explanations
+- Fix question generation bugs - parameter order and type handling
+- minor changes
+- Replace PyMuPDF with PyPDF2 for better compatibility
+
+- Updated pdf_processor.py to use PyPDF2 instead of PyMuPDF
+- Fixed compilation issues on macOS by switching to PyPDF2
+- Updated requirements.txt with PyPDF2==3.0.1
+- Updated verification script to check for PyPDF2
+- Kept backup of original PyMuPDF version as pdf_processor_old.py
+- All bot functionality remains the same with improved compatibility
+
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update projects page
 - Update latest commits
 - Update Boot.dev stats
+- Update projects page
 - Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
