@@ -11,16 +11,11 @@ excerpt: "Create and edit blog posts directly from browser"
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
-.editor-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin: 1rem 0;
-}
 .editor-panel {
   border: 1px solid #333;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 .panel-header {
   background: #1a1a1a;
@@ -31,9 +26,9 @@ excerpt: "Create and edit blog posts directly from browser"
   justify-content: space-between;
   align-items: center;
 }
-.editor-textarea, .preview-area {
+.editor-textarea {
   width: 100%;
-  height: 400px;
+  height: 600px; /* Increased height for the editor */
   padding: 1rem;
   border: none;
   background: #111;
@@ -44,6 +39,12 @@ excerpt: "Create and edit blog posts directly from browser"
   resize: vertical;
 }
 .preview-area {
+  width: 100%;
+  height: 400px; /* Set height for the preview */
+  padding: 1rem;
+  border: 1px solid #333;
+  background: #222;
+  color: #e1e1e1;
   overflow-y: auto;
   font-family: inherit;
 }
@@ -63,14 +64,6 @@ excerpt: "Create and edit blog posts directly from browser"
   background: #111;
   color: #e1e1e1;
   font-size: 14px;
-}
-.form-select {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #333;
-  border-radius: 4px;
-  background: #111;
-  color: #e1e1e1;
 }
 .button-group {
   display: flex;
@@ -120,8 +113,8 @@ excerpt: "Create and edit blog posts directly from browser"
   background: #555;
 }
 @media (max-width: 768px) {
-  .editor-grid {
-    grid-template-columns: 1fr;
+  .editor-panel {
+    margin-bottom: 1rem;
   }
 }
 </style>
@@ -144,27 +137,25 @@ excerpt: "Create and edit blog posts directly from browser"
     <input type="text" id="post-tags" class="form-input" placeholder="development, tutorial, personal">
   </div>
   
-  <div class="editor-grid">
-    <div class="editor-panel">
-      <div class="panel-header">
-        📝 Markdown Editor
-        <div class="toolbar">
-          <button class="toolbar-btn" onclick="insertMarkdown('**', '**')" title="Bold">B</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('*', '*')" title="Italic">I</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('`', '`')" title="Code">&lt;/&gt;</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('## ', '')" title="Heading">H2</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('- ', '')" title="List">•</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('[link text](', ')')" title="Link">🔗</button>
-          <button class="toolbar-btn" onclick="insertMarkdown('![alt text](', ')')" title="Image">🖼️</button>
-        </div>
+  <div class="editor-panel">
+    <div class="panel-header">
+      📝 Markdown Editor
+      <div class="toolbar">
+        <button class="toolbar-btn" onclick="insertMarkdown('**', '**')" title="Bold">B</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('*', '*')" title="Italic">I</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('`', '`')" title="Code">&lt;/&gt;</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('## ', '')" title="Heading">H2</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('- ', '')" title="List">•</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('[link text](', ')')" title="Link">🔗</button>
+        <button class="toolbar-btn" onclick="insertMarkdown('![alt text](', ')')" title="Image">🖼️</button>
       </div>
-      <textarea id="post-content" class="editor-textarea" placeholder="Write your post content in Markdown..."></textarea>
     </div>
-    
-    <div class="editor-panel">
-      <div class="panel-header">👁️ Live Preview</div>
-      <div id="preview-area" class="preview-area"></div>
-    </div>
+    <textarea id="post-content" class="editor-textarea" placeholder="Write your post content in Markdown..."></textarea>
+  </div>
+  
+  <div class="editor-panel">
+    <div class="panel-header">👁️ Live Preview</div>
+    <div id="preview-area" class="preview-area"></div>
   </div>
   
   <div class="button-group">
@@ -225,11 +216,7 @@ function generatePost() {
   const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const filename = `${date}-${slug}.md`;
   
-  let frontmatter = `---
-layout: single
-title: "${title.replace(/"/g, '\\"')}"
-date: ${new Date().toISOString()}
-permalink: /blog/${slug}/`;
+  let frontmatter = `---\nlayout: single\ntitle: "${title.replace(/"/g, '\\"')}"\ndate: ${new Date().toISOString()}\npermalink: /blog/${slug}/`;
 
   if (excerpt) {
     frontmatter += `\nexcerpt: "${excerpt.replace(/"/g, '\\"')}"`;
@@ -240,11 +227,7 @@ permalink: /blog/${slug}/`;
     frontmatter += `\ntags: [${tagArray}]`;
   }
   
-  frontmatter += `
-categories: ["blog"]
----
-
-`;
+  frontmatter += `\ncategories: ["blog"]\n---\n\n`;
 
   const fullContent = frontmatter + content;
   

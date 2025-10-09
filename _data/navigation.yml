@@ -5,9 +5,9 @@ main:
     url: /projects/
   - title: "Drone videos"
     url: /videos/
-  - title: "Latest Commits"
-    url: /commits/
   - title: "Blog"
     url: /blog/
   - title: "About"
     url: /about/
+  - title: "Post Editor"
+    url: /post/
