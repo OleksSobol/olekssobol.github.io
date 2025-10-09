@@ -37,11 +37,8 @@ excerpt: >
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 
-<!-- Level: 62
-- XP Today: 72
-- Total XP: 932 -->
-<!--BOOTDEV_STATS_END-->
-
 <p align="left">
   <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" >
 </p>
+
+**New:** Aerial footage page now live → [Drone Videos](/videos/)

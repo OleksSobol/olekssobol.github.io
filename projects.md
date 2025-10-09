@@ -10,6 +10,7 @@ excerpt: "My ongoing projects and GitHub repos"
 - [GitHub Profile](https://github.com/OleksSobol)
 - Working on Expense/ Income App with Flutter
 
+
 ## GitHub Repos
 
 - [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io) — Personal website 
@@ -19,3 +20,9 @@ excerpt: "My ongoing projects and GitHub repos"
 - [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC) - This Python project is designed to handle customer data integration between Utopia and PowerCode through an API.
 - [Spotify-Top-100](https://github.com/OleksSobol/Spotify-Top-100)
 - [tdesktop](https://github.com/OleksSobol/tdesktop) — Telegram Desktop messaging app.
+
+## Live Demos
+- Wedding Website: [solstice2026.party](https://solstice2026.party)
+- Personal Site (this): [osobol.com](https://osobol.com)
+- Expense Tracker (Web build) – <em>coming soon</em>
+- Drone Portfolio – [/videos/](/videos/)
