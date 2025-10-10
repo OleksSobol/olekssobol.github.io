@@ -19,26 +19,17 @@ excerpt: >
 
 ## About
 
-I'm a Backend Software Developer with 4+ years of experience building automation pipelines and scalable systems. I transitioned from network engineering to software development, bringing unique expertise in infrastructure optimization and system reliability. I specialize in Python APIs, database design, and cloud deployment.
+I'm a Backend Software Developer with experience building automation pipelines and scalable systems. 
 
-**Current Focus:** Backend automation, API development, system scalability, and cloud infrastructure
-
----
-
-## Professional Highlights
-
-- 🚀 **Reduced customer onboarding time from 20 minutes to under 1 minute** through backend automation
-- 📉 **Decreased manual errors by 90%** with scalable automation pipelines
-- 👥 **Supporting 4000+ clients** with production systems
-- ⚡ **Cut deployment time by 80%** through automated configuration management
+**Current Focus:** Cybersecurity, backend automation, API development, system scalability, and cloud infrastructure
 
 ---
 
 ## Featured Projects
 
 Check out my [projects page](/projects/) to see what I've built:
-- **Utopia Account Creation (UAC)** - Customer onboarding automation with API integration
-- **DHCP Lease Runner (DLR)** - Equipment management automation for ISP operations
+- **Utopia Account Creation (UAC)** - Customer onboarding automation with API integration from Utopia, Powercodem CRM.
+- **DHCP Lease Runner (DLR)** - Equipment management automation for ISP operations using Mikrotik and Powercode CRM.
 - **Expense Tracker** - Cross-platform mobile app built with Flutter
 - And more on my [GitHub profile](https://github.com/OleksSobol)
 
@@ -65,7 +56,11 @@ Check out my [projects page](/projects/) to see what I've built:
 
 ## Continuous Learning
 
-Actively expanding my backend development skills through Boot.dev's computer science curriculum and hands-on project work.
+Actively expanding my backend development and security skills through:
+- **Boot.dev** - Backend development
+- **Harvard CS50x** - Introduction to Computer Science
+- **Harvard CS50 Cybersecurity** - Security fundamentals and best practices
+
 
 <p align="left">
   <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress">
