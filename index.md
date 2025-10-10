@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "Oleks Sobol"
+title: "Oleksandr Sobol"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -14,23 +14,33 @@ header:
     - label: "Contact"
       url: "/contact/"
 excerpt: >
-  Software Engineer | Building scalable web applications and exploring AI/ML solutions
+  Backend Software Developer | Building scalable automation systems and APIs with Python
 ---
 
 ## About
 
-I'm a software engineer passionate about full-stack development and artificial intelligence. I document my journey from network engineering to software development, sharing insights on practical coding challenges and solutions.
+I'm a Backend Software Developer with 4+ years of experience building automation pipelines and scalable systems. I transitioned from network engineering to software development, bringing unique expertise in infrastructure optimization and system reliability. I specialize in Python APIs, database design, and cloud deployment.
 
-**Current Focus:** Python, GO, C, AI agents, and modern backend development
+**Current Focus:** Backend automation, API development, system scalability, and cloud infrastructure
+
+---
+
+## Professional Highlights
+
+- 🚀 **Reduced customer onboarding time from 20 minutes to under 1 minute** through backend automation
+- 📉 **Decreased manual errors by 90%** with scalable automation pipelines
+- 👥 **Supporting 4000+ clients** with production systems
+- ⚡ **Cut deployment time by 80%** through automated configuration management
 
 ---
 
 ## Featured Projects
 
-Check out my [projects page](/projects/) to see what I've been building, including:
-- AI-powered applications
-- Full-stack web development
-- Automation tools and scripts
+Check out my [projects page](/projects/) to see what I've built:
+- **Utopia Account Creation (UAC)** - Customer onboarding automation with API integration
+- **DHCP Lease Runner (DLR)** - Equipment management automation for ISP operations
+- **Expense Tracker** - Cross-platform mobile app built with Flutter
+- And more on my [GitHub profile](https://github.com/OleksSobol)
 
 ---
 
@@ -53,9 +63,9 @@ Check out my [projects page](/projects/) to see what I've been building, includi
 
 ---
 
-## Professional Development
+## Continuous Learning
 
-Currently completing Boot.dev's computer science curriculum, focusing on backend development and algorithmic thinking.
+Actively expanding my backend development skills through Boot.dev's computer science curriculum and hands-on project work.
 
 <p align="left">
   <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress">
@@ -63,4 +73,4 @@ Currently completing Boot.dev's computer science curriculum, focusing on backend
 
 ---
 
-**Also check out:** [Drone aerial footage](/videos/) | [GitHub](https://github.com/yourusername)
+**Also explore:** [Drone aerial footage](/videos/) | [Download Resume](/assets/resume.pdf)

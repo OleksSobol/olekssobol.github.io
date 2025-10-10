@@ -130,11 +130,17 @@ excerpt: "Aerial portfolio – FAA Part 107 certified remote pilot"
 
 </div>
 
-### Services / Collaboration
-Need custom aerial footage, inspection passes, or raw D‑Log clips? <a href="mailto:contact@osobol.com">Email me</a> with location, purpose, and desired deliverables.
+### Services & Collaboration
+Need custom aerial footage, inspection passes, or raw D‑Log clips? [Contact me](/contact/) with location, purpose, and desired deliverables.
+
+**Email:** [olekssobol@gmail.com](mailto:olekssobol@gmail.com)
 
 ### Flight & Compliance Notes
 - Airspace & weather checks before flight
 - Visual observer when required
 - Battery & compass calibration logged
 - Post-flight media integrity verification
+
+---
+
+[Back to Portfolio](/) | [View More on YouTube](https://www.youtube.com/@Life2freedom)

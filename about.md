@@ -4,50 +4,97 @@ title: "About Me"
 permalink: /about/
 ---
 
-## Background
+## Overview
 
-I'm Oleks Sobol, a software engineer transitioning from network engineering to full-stack development. I'm passionate about building practical applications, exploring AI/ML technologies, and documenting my learning journey through code and writing.
+I'm Oleksandr (Oleks) Sobol, a Backend Software Developer with 4+ years of experience building automation pipelines and scalable systems. My journey from network engineering to software development has given me a unique perspective on infrastructure optimization and system reliability.
 
----
-
-## Technical Skills
-
-**Languages:** Python, JavaScript, HTML/CSS, SQL  
-**Frameworks & Tools:** React, Node.js, Git, Linux  
-**Currently Learning:** AI agent development, backend architecture, algorithmic problem-solving
+Currently based in Washington, I specialize in creating backend solutions that dramatically improve efficiency and reduce manual processes.
 
 ---
 
-## Professional Journey
+## Professional Experience
 
-I'm actively developing my software engineering skills through hands-on projects and structured learning. My background in network engineering gives me a unique perspective on system design and infrastructure considerations.
+### Backend Software Developer Journey
 
-**Key Areas of Interest:**
-- Full-stack web development
-- AI-powered applications
-- Developer tools and automation
-- Technical writing and documentation
+My career began in network operations, where I quickly identified opportunities to automate repetitive tasks and improve system reliability. This led me to develop increasingly sophisticated automation tools, eventually transitioning fully into backend software development.
+
+**Key Achievements:**
+- Reduced customer onboarding from 20 minutes to under 1 minute (95% improvement)
+- Decreased manual errors by 90% through automation pipelines
+- Built production systems serving 4000+ clients
+- Cut firmware deployment time by 80% with automated configuration management
+
+At GlobalNet Inc., I led the development of critical automation infrastructure, designed scalable APIs, and mentored team members on technical problem-solving.
 
 ---
 
-## Current Projects
+## Technical Expertise
 
-I'm working on various projects that combine my interests in web development and AI. Check out my [Projects page](/projects/) to see what I'm building, or visit my [GitHub](https://github.com/OleksSobol) to explore the code.
+**Backend Development:**  
+Python, Go, Flask, FastAPI, REST APIs, OAuth2
+
+**Databases & Data:**  
+SQLite, MySQL, MongoDB
+
+**DevOps & Infrastructure:**  
+Docker, Docker Compose, AWS (EC2, S3, RDS), Linux Administration, Nginx, Apache
+
+**Automation & CI/CD:**  
+GitHub Actions, Jenkins, Cron, Bash scripting
+
+**Additional Skills:**  
+C, JavaScript, Git, Postman, API integration, system architecture
+
+---
+
+## Education & Certifications
+
+**B.S. in Cybersecurity**  
+Vinnytsia National Technical University (2012-2016)
+
+**Continuous Learning:**  
+Currently advancing my skills through multiple programs:
+- **Boot.dev** - Computer science curriculum focusing on backend development and algorithms
+- **Harvard CS50x** - Introduction to Computer Science
+- **Harvard CS50 Cybersecurity** - Security principles and practical implementations
+
+---
+
+## What I Bring to the Table
+
+My background in network engineering combined with software development expertise allows me to:
+- Design systems with infrastructure scalability in mind
+- Build reliable automation that handles edge cases
+- Understand the full stack from hardware to application layer
+- Optimize for performance and cost-efficiency
+- Bridge communication between technical and non-technical stakeholders
 
 ---
 
 ## Beyond Code
 
-When I'm not coding, I enjoy capturing aerial footage with my drone and sharing perspectives from above. You can find my drone videos on my [YouTube channel](https://www.youtube.com/@Life2freedom).
+When I'm not developing backend systems, I enjoy:
+- Capturing aerial footage with my drone ([see my videos](/videos/))
+- Contributing to open-source projects
+- Writing about my technical journey and lessons learned
+- Exploring new technologies and development patterns
+
+---
+
+## Languages
+
+**Ukrainian:** Native  
+**English:** Fluent
 
 ---
 
 ## Let's Connect
 
-I'm always interested in connecting with fellow developers and exploring new opportunities.
+I'm always interested in discussing backend architecture, automation challenges, or new opportunities in software development.
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
+- **Email:** [olekssobol@gmail.com](mailto:olekssobol@gmail.com)
 - **LinkedIn:** [linkedin.com/in/olekssobol](https://www.linkedin.com/in/olekssobol/)
 - **GitHub:** [github.com/OleksSobol](https://github.com/OleksSobol)
+- **Phone:** (406) 580-6183
 
 [Download My Resume (PDF)](/assets/resume.pdf){: .btn .btn--primary}
