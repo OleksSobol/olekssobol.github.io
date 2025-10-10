@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "Oleks’ Hacker Lair"
+title: "Oleks Sobol"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,10 +11,27 @@ header:
       url: "/about/"
     - label: "Projects"
       url: "/projects/"
-    - label: "Latest Commits"
-      url: "/commits/"
+    - label: "Contact"
+      url: "/contact/"
 excerpt: >
-  Welcome to my digital playground — projects, experiments, and late-night hacks.
+  Software Engineer | Building scalable web applications and exploring AI/ML solutions
+---
+
+## About
+
+I'm a software engineer passionate about full-stack development and artificial intelligence. I document my journey from network engineering to software development, sharing insights on practical coding challenges and solutions.
+
+**Current Focus:** Python, JavaScript, AI agents, and modern web development
+
+---
+
+## Featured Projects
+
+Check out my [projects page](/projects/) to see what I've been building, including:
+- AI-powered applications
+- Full-stack web development
+- Automation tools and scripts
+
 ---
 
 ## Latest Posts
@@ -29,16 +46,21 @@ excerpt: >
   {% endfor %}
 </ul>
 
-<p><a href="/blog/">See all posts →</a></p>
+<p><a href="/blog/">View all posts →</a></p>
 {% else %}
-<p>No posts yet. Stay tuned.</p>
+<p>Posts coming soon.</p>
 {% endif %}
 
-<!--BOOTDEV_STATS_START-->
-### Boot.dev Stats
+---
+
+## Professional Development
+
+Currently completing Boot.dev's computer science curriculum, focusing on backend development and algorithmic thinking.
 
 <p align="left">
-  <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" >
+  <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress">
 </p>
 
-**New:** Aerial footage page now live → [Drone Videos](/videos/)
+---
+
+**Also check out:** [Drone aerial footage](/videos/) | [GitHub](https://github.com/yourusername)
