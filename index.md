@@ -21,7 +21,7 @@ excerpt: >
 
 I'm a software engineer passionate about full-stack development and artificial intelligence. I document my journey from network engineering to software development, sharing insights on practical coding challenges and solutions.
 
-**Current Focus:** Python, JavaScript, AI agents, and modern web development
+**Current Focus:** Python, GO, C, AI agents, and modern backend development
 
 ---
 
