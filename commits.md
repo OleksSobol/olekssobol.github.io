@@ -42,6 +42,13 @@ toc: false
 Refactored code
 - Update email_manager.py
 
+## [expenses-tracker](https://github.com/OleksSobol/expenses-tracker)
+- icon updated
+- Hid filters under expandaple buttons
+- added date filster
+- Fixed income|expense|balance to show with applied filters
+- code refactor
+
 ## [freeCodeCamp](https://github.com/OleksSobol/freeCodeCamp)
 - finished couple tasks
 - Merge branch 'master' of https://github.com/OleksSobol/freeCodeCamp
@@ -71,11 +78,11 @@ Refactored code
 - All bot functionality remains the same with improved compatibility
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- Update Boot.dev stats
-- Update latest commits
-- Update Boot.dev stats
-- Update projects page
-- Update latest commits
+- added post preview
+- added post preview
+- small upgrades
+- small upgrades
+- Title changed
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
