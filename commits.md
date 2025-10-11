@@ -78,11 +78,11 @@ Refactored code
 - All bot functionality remains the same with improved compatibility
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- added post preview
-- added post preview
-- small upgrades
-- small upgrades
-- Title changed
+- updated front page
+- Update Boot.dev stats
+- redesing whole website
+- added couple new things
+- changed front page
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -117,14 +117,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
-- fix: personalize RSVP success message for 'No' responses
-
-- Dynamically update RSVP success message based on attendance selection
-- Show 'We\'ll Miss You' message for guests who cannot attend
-- Retain excited message for 'Yes' responses
-- Works for both local testing and deployed site
-- Updated css
-- compress pictures
-- kinda close to be readdy.
-- working on rvsp integration with google apps
+- fix: timer to show DD
+- fix: icon colors
+- fix: different headers font
+- updade: new front page
+- updade: icons color for quick-info-link
 
