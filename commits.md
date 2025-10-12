@@ -78,11 +78,11 @@ Refactored code
 - All bot functionality remains the same with improved compatibility
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
+- Update Boot.dev stats
+- Update latest commits
 - updated front page
 - Update Boot.dev stats
 - redesing whole website
-- added couple new things
-- changed front page
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -117,9 +117,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- update: Details page
+- fix: story page
+- changes our story
 - fix: timer to show DD
 - fix: icon colors
-- fix: different headers font
-- updade: new front page
-- updade: icons color for quick-info-link
 
