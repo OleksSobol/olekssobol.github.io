@@ -80,9 +80,9 @@ Refactored code
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
 - Update latest commits
-- updated front page
 - Update Boot.dev stats
-- redesing whole website
+- Update latest commits
+- updated front page
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
