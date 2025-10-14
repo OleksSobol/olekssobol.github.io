@@ -7,7 +7,9 @@ tags: ["job-prep", "knowledge"]
 categories: ["blog"]
 ---
 
-Hello Jeremy, 
+These were interesting questions to answer. I have limited knowledge in this field, and I tried my best.
+
+Hello xxxxx, 
 
 Thank you for the opportunity. Below are my answers.
 
