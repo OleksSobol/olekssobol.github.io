@@ -82,7 +82,7 @@ Refactored code
 - Update latest commits
 - Update Boot.dev stats
 - Update latest commits
-- updated front page
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
