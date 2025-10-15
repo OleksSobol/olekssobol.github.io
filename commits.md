@@ -77,11 +77,17 @@ Refactored code
 - Kept backup of original PyMuPDF version as pdf_processor_old.py
 - All bot functionality remains the same with improved compatibility
 
+## [OleksSobol](https://github.com/OleksSobol/OleksSobol)
+- Update README.md
+- Initial commit
+
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- Update Boot.dev stats
-- Update latest commits
-- Update Boot.dev stats
-- Update latest commits
+- Enhance pre-interview document with introductory remarks
+
+Added introductory remarks to the pre-interview answers.
+- Rename _posts/2025-10-14-my-answers-to-pre-interview.md to _posts/old/2025-10-14-my-answers-to-pre-interview.md
+- Create old_posts.md
+- Add files via upload
 - Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
