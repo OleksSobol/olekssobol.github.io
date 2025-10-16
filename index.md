@@ -71,7 +71,7 @@ Actively expanding my backend development and security skills through:
 **Also explore:** [Drone aerial footage](/videos/) | [Download Resume](/assets/resume.pdf)
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
-- Level: 62
-- XP Today: 624
-- Total XP: 3668
+- Level: 63
+- XP Today: -3456
+- Total XP: 212
 <!--BOOTDEV_STATS_END-->
