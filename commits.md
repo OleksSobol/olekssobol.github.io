@@ -86,9 +86,7 @@ Refactored code
 - Update latest commits
 - Update Boot.dev stats
 - Update latest commits
-- Enhance pre-interview document with introductory remarks
-
-Added introductory remarks to the pre-interview answers.
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
