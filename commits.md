@@ -83,8 +83,8 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update Boot.dev stats
 - Update latest commits
+- Update Boot.dev stats
 - Update Boot.dev stats
 - Update latest commits
 
@@ -121,9 +121,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- Added story pictures. RSVP smaller gap. More pictures to gallery.
+- Not sure what I did last.
 - update: Details page
 - fix: story page
 - changes our story
-- fix: timer to show DD
-- fix: icon colors
 
