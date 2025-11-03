@@ -85,8 +85,8 @@ Refactored code
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
-- Update Boot.dev stats
 - Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -121,9 +121,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- corrected photos path
 - Added story pictures. RSVP smaller gap. More pictures to gallery.
 - Not sure what I did last.
 - update: Details page
 - fix: story page
-- changes our story
 
