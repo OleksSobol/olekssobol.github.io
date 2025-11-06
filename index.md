@@ -72,6 +72,6 @@ Actively expanding my backend development and security skills through:
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 - Level: 63
-- XP Today: 48
-- Total XP: 1961
+- XP Today: 2048
+- Total XP: 4009
 <!--BOOTDEV_STATS_END-->
