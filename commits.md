@@ -78,6 +78,7 @@ Refactored code
 - All bot functionality remains the same with improved compatibility
 
 ## [OleksSobol](https://github.com/OleksSobol/OleksSobol)
+- Update collaboration interests in README.md
 - Update README.md
 - Initial commit
 
@@ -85,8 +86,8 @@ Refactored code
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
-- Update Boot.dev stats
 - Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
