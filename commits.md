@@ -84,10 +84,10 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update latest commits
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -122,9 +122,12 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
-- corrected photos path
-- Added story pictures. RSVP smaller gap. More pictures to gallery.
-- Not sure what I did last.
-- update: Details page
-- fix: story page
+- migrate: transition to Cloudflare Pages
+- Remove Netlify toml config
+- Add Cloudflare build settings
+- Update DNS configuration
+- fix: new google script link
+- fix: rewrote our details. Still work in progress
+- feat: disable password protection
+- Added icon to page
 
