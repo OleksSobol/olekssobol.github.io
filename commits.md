@@ -84,10 +84,10 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update latest commits
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -110,6 +110,7 @@ Refactored code
 - Create README.md
 
 ## [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
+- Update README.md
 - Projected completed
 
 ## [webflyx](https://github.com/OleksSobol/webflyx)
