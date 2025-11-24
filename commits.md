@@ -123,6 +123,7 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- fix: fixed texted of details
 - fix: rotate skiing image 180 degrees (was upside down)
 - fix: rotate sideways skiing image
 - fix: added photos.
@@ -132,8 +133,4 @@ more stuff
 - fix: css - finally got rid of white space at the top
 got rid of console logs
 added more photos
-- migrate: transition to Cloudflare Pages
-- Remove Netlify toml config
-- Add Cloudflare build settings
-- Update DNS configuration
 
