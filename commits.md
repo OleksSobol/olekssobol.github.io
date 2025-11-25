@@ -110,8 +110,11 @@ Refactored code
 - Create README.md
 
 ## [Utopia-Account-Creation---UAC](https://github.com/OleksSobol/Utopia-Account-Creation---UAC)
-- Update README.md
-- Projected completed
+- docs: add demo GIF and embed it in README
+- docs: updated .env.example to match prod style
+- style: added icon
+- fix: cleaned config from old username and pass code
+- fix: added require_login to protect utopia and powercode routes
 
 ## [webflyx](https://github.com/OleksSobol/webflyx)
 - Merge pull request #1 from OleksSobol/add_classics
