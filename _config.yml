@@ -19,16 +19,25 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 
-# 
+#
 author:
   name: "Oleks Sobol"
   avatar: "/assets/images/avatar.png" # add if you want
-  bio: "Jack of all trades; breaks production only on Tuesdays."
-  location: "USA"
+  bio: "Backend dev automating the boring stuff away | 95% faster onboarding, 90% fewer bugs"
+  location: "Washington, USA"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/OleksSobol"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/olekssobol/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:olekssobol@gmail.com"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@Life2freedom"
 
 # Defaults for pages/posts
 defaults:
@@ -45,7 +54,14 @@ defaults:
       layout: single
       author_profile: true
 
-# Collections (optional)
+# Collections
 collections:
   posts:
     output: true
+  pages:
+    output: true
+    permalink: /:title/
+
+# Include pages directory
+include:
+  - _pages

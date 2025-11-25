@@ -27,3 +27,8 @@ vendor/
 node_modules/
 package-lock.json
 yarn.lock
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+wrangler.toml.lock
