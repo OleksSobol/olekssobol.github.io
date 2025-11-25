@@ -13,7 +13,7 @@ This is the **easiest** and **recommended** approach:
    - **Production branch:** `main`
    - **Build command:** `bundle exec jekyll build`
    - **Build output directory:** `_site`
-5. Add environment variables:
+5. Add environment variables: 
    - `RUBY_VERSION` = `3.2.0`
    - `JEKYLL_ENV` = `production`
 6. Click **Save and Deploy**

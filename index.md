@@ -97,30 +97,24 @@ excerpt: >
   font-size: 0.9rem;
   margin-top: 0.4rem;
 }
+
+/* Accessibility & keyboard focus improvements */
+.project-quick-link {
+  cursor: pointer;
+}
+.project-quick-link:focus {
+  outline: 3px solid #52adc8;
+  transform: none;
+  box-shadow: 0 0 0 4px rgba(82,173,200,0.12);
+}
 </style>
+
+<main role="main">
 
 ## Backend Developer | Automation Specialist
 
-I build scalable automation systems and APIs that dramatically improve efficiency and eliminate manual processes. With 4+ years of experience, I specialize in Python, Go, and cloud infrastructure.
+I build scalable automation systems and APIs that improve operational efficiency and remove repetitive manual work. With 4+ years of experience, I specialize in Python, Go, and cloud infrastructure.
 
-<div class="metrics-grid">
-  <div class="metric-card">
-    <div class="metric-number">95%</div>
-    <div class="metric-label">Faster Onboarding</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">4000+</div>
-    <div class="metric-label">Clients Served</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">90%</div>
-    <div class="metric-label">Fewer Errors</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">80%</div>
-    <div class="metric-label">Faster Deployments</div>
-  </div>
-</div>
 
 <div class="tech-badges">
   <span class="tech-badge">Python</span>
@@ -139,17 +133,17 @@ I build scalable automation systems and APIs that dramatically improve efficienc
 
 ## Featured Projects
 
-<a href="/projects/#utopia-account-creation-uac" class="project-quick-link">
+<a href="/projects/#utopia-account-creation-uac" class="project-quick-link" aria-label="Utopia Account Creation (UAC) project">
   <div class="project-title">Utopia Account Creation (UAC)</div>
   <div class="project-desc">Production automation serving 4000+ clients — Reduced onboarding from 20 minutes to under 1 minute</div>
 </a>
 
-<a href="/projects/#dhcp-lease-runner-dlr" class="project-quick-link">
+<a href="/projects/#dhcp-lease-runner-dlr" class="project-quick-link" aria-label="DHCP Lease Runner (DLR) project">
   <div class="project-title">DHCP Lease Runner (DLR)</div>
   <div class="project-desc">ISP equipment management automation — Saving 15+ hours weekly with multi-threaded processing</div>
 </a>
 
-<a href="/projects/#expense-tracker" class="project-quick-link">
+<a href="/projects/#expense-tracker" class="project-quick-link" aria-label="Expense Tracker project">
   <div class="project-title">Expense Tracker</div>
   <div class="project-desc">Cross-platform mobile app built with Flutter — Personal finance management with visual analytics</div>
 </a>
@@ -187,7 +181,7 @@ I'm committed to continuous improvement through structured learning programs:
 - **Harvard CS50 Cybersecurity** — Security principles & implementation
 
 <p align="left" style="margin-top: 1rem;">
-  <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress">
+  <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress" loading="lazy">
 </p>
 </div>
 
@@ -200,7 +194,9 @@ I'm committed to continuous improvement through structured learning programs:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="/about/" class="btn btn--info">Learn More About Me</a>
-  <a href="/playground/" class="btn btn--success">Try the Playground</a>
-  <a href="/assets/resume.pdf" class="btn btn--primary">Download Resume</a>
+  <a href="/about/" class="btn btn--info" aria-label="Learn more about me">Learn More About Me</a>
+  <a href="/playground/" class="btn btn--success" aria-label="Open the playground">Try the Playground</a>
+  <a href="/assets/resume.pdf" class="btn btn--primary" aria-label="Download resume">Download Resume</a>
 </div>
+
+</main>
