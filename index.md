@@ -200,3 +200,9 @@ I'm committed to continuous improvement through structured learning programs:
 </div>
 
 </main>
+<!--BOOTDEV_STATS_START-->
+### Boot.dev Stats
+- Level: 64
+- XP Today: 0
+- Total XP: 2007
+<!--BOOTDEV_STATS_END-->
