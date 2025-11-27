@@ -84,6 +84,8 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
+- Update latest commits
+- Update Boot.dev stats
 - docs: edited main page
 - Revamp portfolio with professional design and Cloudflare Pages migration
 
@@ -164,8 +166,6 @@ and clean organizational structure.
 - Personal connection through storytelling
 - Multi-faceted skills showcase
 - Easy navigation with logical page flow
-- Update latest commits
-- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -204,12 +204,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- docs: main desc change
 - docs: added better desc
 - fix: fixed texted of details
 - fix: rotate skiing image 180 degrees (was upside down)
 - fix: rotate sideways skiing image
-- fix: added photos.
-removed console logs
-fixed css white space at the top
-more stuff
 
