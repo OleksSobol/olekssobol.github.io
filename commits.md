@@ -86,86 +86,8 @@ Refactored code
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
-- docs: edited main page
-- Revamp portfolio with professional design and Cloudflare Pages migration
-
-Major portfolio transformation with modern design, interactive features,
-and clean organizational structure.
-
-- Animated metrics grid showcasing key achievements (95%, 4000+, 90%, 80%)
-- Interactive tech stack badges
-- Clickable project preview cards with hover effects
-- Professional gradient styling with improved visual hierarchy
-
-- 6 interactive developer tools:
-  * API Tester (GET/POST/PUT/DELETE)
-  * JSON Formatter & Validator
-  * Base64 Encoder/Decoder
-  * URL Encoder/Decoder
-  * Subnet Calculator
-  * UUID Generator
-- Tab-based navigation
-- Client-side processing for privacy
-- Professional dark theme matching portfolio
-
-- Beautiful project cards with gradient backgrounds
-- Impact badges (95% FASTER, 15+ HOURS SAVED)
-- Stats grids showing quantifiable achievements
-- Tech stack tags with hover effects
-- Status badges for in-development projects
-
-- Compelling origin story (network engineer → software developer)
-- Personal quote and journey narrative
-- Achievement metrics grid (6 cards)
-- Interactive skill tags organized by category
-- Timeline-style education section
-- "What Makes Me Different" highlighting unique perspective
-
-- Professional FAA Part 107 certification banner
-- Stats cards (4K, Part 107, Locations, Quality)
-- Enhanced video cards with hover effects
-- Services & Collaboration section for potential clients
-- Flight Operations & Safety section
-
-- cloudflare/wrangler.toml - Wrangler CLI configuration
-- cloudflare/.cloudflare-pages.yml - Build settings
-- cloudflare/deploy-cloudflare.sh - Automated deployment script
-- _headers - HTTP security & caching headers
-- _redirects - URL redirects and 404 handling
-
-- docs/DEPLOYMENT_GUIDE.md - Quick start guide
-- docs/CLOUDFLARE_DEPLOYMENT.md - Detailed instructions
-- STRUCTURE.md - Complete structure guide
-- Multiple README.md files for each directory
-
-- Created _pages/ directory for all content pages
-- Created cloudflare/ directory for deployment config
-- Created docs/ directory for documentation
-- Reduced root directory from 25+ files to 7 files
-- Added README.md files in subdirectories for documentation
-
-- _config.yml - Added _pages collection and include
-- _data/navigation.yml - Added Playground link
-- .gitignore - Added Cloudflare temp files
-- README.md - Complete project overview with new structure
-
-- Primary accent: #52adc8 (cyan/blue)
-- Background gradients: #1a1a1a to #2d2d2d
-- Consistent borders: #3a3a3a
-- Success/Impact: #a8ff78 (green gradient)
-
-- Hover animations (translateY, scale)
-- Smooth transitions (0.2s - 0.3s)
-- Color changes on hover
-- Box shadows for depth
-
-- Visual impact with prominent metrics
-- Professional credibility with consistent design
-- Interactive engagement with Playground tools
-- Clear value proposition on every page
-- Personal connection through storytelling
-- Multi-faceted skills showcase
-- Easy navigation with logical page flow
+- Update latest commits
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -204,9 +126,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- docs: main desc change + photo
 - docs: main desc change
 - docs: added better desc
 - fix: fixed texted of details
 - fix: rotate skiing image 180 degrees (was upside down)
-- fix: rotate sideways skiing image
 
