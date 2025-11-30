@@ -203,6 +203,6 @@ I'm committed to continuous improvement through structured learning programs:
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 - Level: 64
-- XP Today: 1032
-- Total XP: 3831
+- XP Today: 1200
+- Total XP: 5031
 <!--BOOTDEV_STATS_END-->
