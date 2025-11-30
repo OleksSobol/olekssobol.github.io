@@ -84,10 +84,10 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update latest commits
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -126,9 +126,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
-- docs: main desc change + photo
-- docs: main desc change
-- docs: added better desc
-- fix: fixed texted of details
-- fix: rotate skiing image 180 degrees (was upside down)
+- update: added more functions to rsvp script
+- update: added more functions to rsvp script
+- update: added more functions to rsvp script
+- update: added more functions to rsvp script
+- feat: added calendar event to google scri[pt
 
