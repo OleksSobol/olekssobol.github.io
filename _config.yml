@@ -1,67 +1,183 @@
+# Site Settings
 title: "Oleks Sobol"
 name: "Oleks Sobol"
-description: "Projects, experiments, and late-night hacks."
+description: "Building systems at 2 AM. Breaking things until they work. Automating the chaos."
 url: "https://olekssobol.github.io"
-baseurl: ""  
+baseurl: ""
+repository: "OleksSobol/olekssobol.github.io"
 
-# Minimal Mistakes via remote theme
+# Theme Configuration
 remote_theme: "mmistakes/minimal-mistakes@4.26.0"
-minimal_mistakes_skin: "dark" # try: default, air, aqua, neon, etc.
+minimal_mistakes_skin: "dark"
 
-# Plugins supported by GitHub Pages
+# Reading Files
+include:
+  - _pages
+  - .htaccess
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - STRUCTURE.md
+
+# Plugins
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
 
+# Markdown Processing
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
 
-#
+# Pagination
+paginate: 10
+paginate_path: /blog/page:num/
+
+# SEO and Analytics
+timezone: America/Los_Angeles
+locale: "en-US"
+
+# Author Profile
 author:
   name: "Oleks Sobol"
-  avatar: "/assets/images/avatar.png" # add if you want
-  bio: "Backend dev automating the boring stuff away | 95% faster onboarding, 90% fewer bugs"
+  avatar: "/assets/images/avatar.png"
+  bio: "Backend engineer"
   location: "Washington, USA"
   links:
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/OleksSobol"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/olekssobol/"
     - label: "Email"
-      icon: "fas fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:olekssobol@gmail.com"
     - label: "YouTube"
-      icon: "fab fa-youtube"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@Life2freedom"
 
-# Defaults for pages/posts
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/OleksSobol"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/olekssobol/"
+
+# Reading time
+read_time: true
+words_per_minute: 200
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  playground:
+    output: true
+    permalink: /playground/:title/
+
+# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+  # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      read_time: true
+      toc: true
+      toc_sticky: true
+  # _playground
+  - scope:
+      path: ""
+      type: playground
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      read_time: true
 
-# Collections
-collections:
-  posts:
-    output: true
-  pages:
-    output: true
-    permalink: /:title/
+# Category & Tag Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-# Include pages directory
-include:
-  - _pages
+# Compress HTML
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

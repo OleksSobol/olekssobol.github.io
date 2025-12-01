@@ -2,7 +2,8 @@
 layout: single
 title: "Projects"
 permalink: /projects/
-excerpt: "Backend automation systems, APIs, and applications I've built"
+excerpt: "Systems that automate, APIs that scale, code that ships."
+classes: wide
 ---
 
 <style>
@@ -15,9 +16,9 @@ excerpt: "Backend automation systems, APIs, and applications I've built"
   transition: all 0.3s;
 }
 .project-card:hover {
-  border-color: #52adc8;
+  border-color: #5cffd6;
   transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 24px rgba(92, 255, 214, 0.15);
 }
 .project-header {
   display: flex;
@@ -168,11 +169,11 @@ excerpt: "Backend automation systems, APIs, and applications I've built"
     </div>
   </div>
 
-  <p>Production-grade automation system that handles seamless customer data integration between Utopia and PowerCode platforms. Serves <strong>4000+ clients</strong> with 99.9% reliability.</p>
+  <p>Production-grade automation system that handles seamless customer data integration between Utopia and PowerCode platforms. Serves <strong>1000+ clients</strong> with 99.9% reliability.</p>
 
   <div class="stats-grid">
     <div class="stat-item">
-      <div class="stat-number">20min → 1min</div>
+      <div class="stat-number">10min → 1min</div>
       <div class="stat-label">Onboarding Time</div>
     </div>
     <div class="stat-item">
@@ -180,7 +181,7 @@ excerpt: "Backend automation systems, APIs, and applications I've built"
       <div class="stat-label">Fewer Errors</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">4000+</div>
+      <div class="stat-number">1000+</div>
       <div class="stat-label">Clients Served</div>
     </div>
     <div class="stat-item">
@@ -417,19 +418,40 @@ excerpt: "Backend automation systems, APIs, and applications I've built"
 
 ---
 
-## Automation Tools & Infrastructure
+## Additional Work
 
-<div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border-left: 4px solid #52adc8; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
+<div class="highlight-box" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border-left: 4px solid #5cffd6; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
 
-Throughout my career, I've developed dozens of automation scripts and production tools for:
+<p style="margin-bottom: 1.5rem;">Throughout my career, I've built dozens of automation tools and production systems:</p>
 
-- **Network Device Management** — Python and Bash scripts for configuration automation
-- **Firmware Deployment** — Automated systems reducing deployment time by 80%
-- **Monitoring & Alerting** — Custom solutions for system health tracking
-- **Data Migration Pipelines** — ETL processes for large-scale data transformation
-- **API Testing & Validation** — Custom testing frameworks and tools
+<div style="margin-left: 1rem;">
+  <p style="margin-bottom: 1rem;">
+    <strong style="color: #5cffd6; display: block; margin-bottom: 0.25rem;">Network Device Management</strong>
+    <span style="color: #b0b0b0;">Python and Bash scripts for configuration automation</span>
+  </p>
 
-Many of these tools are proprietary to previous employers, but the patterns, architectures, and approaches are reflected in my public repositories and personal projects.
+  <p style="margin-bottom: 1rem;">
+    <strong style="color: #5cffd6; display: block; margin-bottom: 0.25rem;">Firmware Deployment</strong>
+    <span style="color: #b0b0b0;">Automated systems reducing deployment time by 80%</span>
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    <strong style="color: #5cffd6; display: block; margin-bottom: 0.25rem;">Monitoring & Alerting</strong>
+    <span style="color: #b0b0b0;">Custom solutions for system health tracking</span>
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    <strong style="color: #5cffd6; display: block; margin-bottom: 0.25rem;">Data Migration Pipelines</strong>
+    <span style="color: #b0b0b0;">ETL processes for large-scale data transformation</span>
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    <strong style="color: #5cffd6; display: block; margin-bottom: 0.25rem;">API Testing & Validation</strong>
+    <span style="color: #b0b0b0;">Custom testing frameworks and tools</span>
+  </p>
+</div>
+
+<p style="margin-top: 1.5rem; color: #b0b0b0; font-size: 0.95rem; font-style: italic;">Many of these tools are proprietary to previous employers, but the patterns and approaches are reflected in my public work.</p>
 
 </div>
 

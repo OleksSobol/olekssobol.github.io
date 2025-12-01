@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "About Me"
+title: "About"
 permalink: /about/
+excerpt: "How I went from network cables to backend code, and why I build things that save people's time."
+classes: wide
 ---
 
 <style>
@@ -116,28 +118,19 @@ permalink: /about/
 }
 </style>
 
-<div class="about-header">
-  <h2 style="color: #52adc8; margin-bottom: 0.5rem;">Oleksandr (Oleks) Sobol</h2>
-  <p class="about-intro">
-    Backend Software Developer | Automation Specialist | Problem Solver
-  </p>
-</div>
+# Oleks Sobol
 
-## The Journey: From Network Engineer to Software Developer
+Backend engineer. System builder. Chaos automator.
 
-<div class="journey-card">
-<p style="font-size: 1.05rem; line-height: 1.7;">
-My path into software development wasn't traditional — it started with frustration. As a network engineer managing hundreds of devices, I watched my colleagues spend hours on repetitive tasks that could be automated. So I wrote my first Python script to configure network equipment in bulk. That script saved 15 hours of manual work every week.
-</p>
+## The Journey
 
-<p style="font-size: 1.05rem; line-height: 1.7; margin-top: 1rem;">
-One script became ten. Ten became entire systems. What started as simple automation evolved into production-grade applications serving thousands of users. I discovered I loved building systems that eliminated tedious work and let people focus on what matters.
-</p>
+My path into software development started with frustration. As a network engineer managing hundreds of devices, I watched colleagues spend hours on repetitive tasks that could be automated. So I wrote my first Python script to configure network equipment in bulk. That script saved 15 hours every week.
 
-<div class="quote-box">
-"I don't just write code — I solve problems that waste people's time."
-</div>
-</div>
+One script became ten. Ten became entire systems. What started as simple automation evolved into production-grade applications serving thousands of users.
+
+I discovered I loved building systems that eliminate tedious work and let people focus on what actually matters.
+
+> I don't just write code. I solve problems that waste people's time.
 
 ---
 
@@ -149,20 +142,12 @@ One script became ten. Ten became entire systems. What started as simple automat
     <div class="achievement-label">Faster Customer Onboarding</div>
   </div>
   <div class="achievement-card">
-    <div class="achievement-number">4000+</div>
+    <div class="achievement-number">1000+</div>
     <div class="achievement-label">Clients Served</div>
   </div>
   <div class="achievement-card">
     <div class="achievement-number">90%</div>
     <div class="achievement-label">Reduction in Errors</div>
-  </div>
-  <div class="achievement-card">
-    <div class="achievement-number">80%</div>
-    <div class="achievement-label">Faster Deployments</div>
-  </div>
-  <div class="achievement-card">
-    <div class="achievement-number">15+hrs</div>
-    <div class="achievement-label">Saved Weekly per System</div>
   </div>
   <div class="achievement-card">
     <div class="achievement-number">4+ Years</div>
@@ -172,11 +157,11 @@ One script became ten. Ten became entire systems. What started as simple automat
 
 ---
 
-## What I Do Best
+## What I Do
 
-**I specialize in building backend automation that turns hours of manual work into seconds of automated execution.** My background in network engineering gives me a unique edge: I understand infrastructure from the ground up, which means I build systems that are scalable, reliable, and cost-efficient.
+I build backend automation that turns hours of manual work into seconds. My background in network engineering gives me an edge: I understand infrastructure from the ground up, which means I build systems that are scalable, reliable, and actually work in production.
 
-**At GlobalNet Inc.**, I led the development of critical automation infrastructure that transformed how the company onboarded customers and managed network equipment. I designed scalable APIs, mentored team members on technical problem-solving, and built production systems that still run today.
+At GlobalNet Inc., I led development of automation infrastructure that transformed how the company onboarded customers and managed network equipment. I designed scalable APIs, mentored teammates on technical problem-solving, and built production systems that still run today.
 
 <div class="skills-section">
 
@@ -275,39 +260,29 @@ I'm a strong believer in continuous learning. Technology evolves rapidly, and st
 
 ---
 
-## What Makes Me Different
+## Different Perspective
 
-<div class="personal-section">
+My network engineering background gives me a perspective most developers don't have:
 
-My background in **network engineering** gives me a perspective most developers don't have:
-
-- **I think about infrastructure first** — Every API I design considers scalability, latency, and failure modes
-- **I understand the full stack** — From packet-level networking to application logic, I see how all the pieces fit together
-- **I optimize for real-world conditions** — I've dealt with unstable networks, hardware failures, and unpredictable user behavior
-- **I build for operations teams** — My systems include monitoring, logging, and clear error messages because I've been on the other side
-
-</div>
+- I think about infrastructure first — every API considers scalability, latency, and failure modes
+- I understand the full stack — from packet-level networking to application logic
+- I optimize for real-world conditions — unstable networks, hardware failures, unpredictable user behavior
+- I build for operations teams — monitoring, logging, and clear error messages come standard
 
 ---
 
-## Beyond the Code
+## Beyond Code
 
-<div class="personal-section">
+### FAA Part 107 Certified Pilot
 
-### 🚁 FAA Part 107 Certified Drone Pilot
+When I'm not writing backend systems, I'm flying drones and capturing aerial footage across Montana and Washington. Turns out precision, planning, and staying calm when things go wrong are useful skills for both.
 
-When I'm not writing backend systems, you'll find me capturing aerial footage across Montana and Washington. Flying drones taught me valuable lessons about precision, planning, and staying calm when things don't go as expected — skills that translate perfectly to software development.
+### Currently Exploring
 
-[Check out my aerial portfolio](/videos/)
-
-### 🌱 What I'm Exploring
-
-- **Open Source Contributions** — Contributing to projects that solve real problems
-- **Technical Writing** — Sharing lessons learned from production systems
-- **New Technologies** — Currently diving deeper into Go and distributed systems
-- **Development Patterns** — Always refining my approach to building maintainable, scalable code
-
-</div>
+- Open source contributions
+- Technical writing
+- Go and distributed systems
+- Better patterns for maintainable code
 
 ---
 
@@ -326,25 +301,16 @@ When I'm not writing backend systems, you'll find me capturing aerial footage ac
 
 ---
 
-## Let's Connect
+## Connect
 
-<div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border: 1px solid #52adc8; border-radius: 8px; padding: 2rem; margin: 2rem 0;">
+Interested in backend architecture, automation challenges, or just want to talk about solving technical problems?
 
-I'm always interested in discussing:
-- Backend architecture and system design
-- Automation challenges and solutions
-- New opportunities in software development
-- Technical problems worth solving
+- Email: [olekssobol@gmail.com](mailto:olekssobol@gmail.com)
+- LinkedIn: [linkedin.com/in/olekssobol](https://www.linkedin.com/in/olekssobol/)
+- GitHub: [github.com/OleksSobol](https://github.com/OleksSobol)
+- Phone: (406) 580-6183
 
-<div style="margin-top: 1.5rem;">
-  <p><strong style="color: #52adc8;">📧 Email:</strong> <a href="mailto:olekssobol@gmail.com">olekssobol@gmail.com</a></p>
-  <p><strong style="color: #52adc8;">💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/olekssobol/">linkedin.com/in/olekssobol</a></p>
-  <p><strong style="color: #52adc8;">💻 GitHub:</strong> <a href="https://github.com/OleksSobol">github.com/OleksSobol</a></p>
-  <p><strong style="color: #52adc8;">📱 Phone:</strong> (406) 580-6183</p>
-</div>
-
-</div>
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/assets/resume.pdf" class="btn btn--primary" style="padding: 0.8rem 2rem; font-size: 1.1rem;">Download My Resume</a>
+<div class="text-center mt-4">
+  <a href="/assets/resume.pdf" class="btn btn--primary">Download Resume</a>
+  <a href="/projects/" class="btn btn--primary">View Projects</a>
 </div>

@@ -1,15 +1,12 @@
+# Main navigation
 main:
   - title: "Home"
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Playground"
-    url: /playground/
-  - title: "Drone videos"
-    url: /videos/
   - title: "Blog"
     url: /blog/
+  - title: "Playground"
+    url: /playground/
   - title: "About"
     url: /about/
-  - title: "Contact"
-    url: "/contact/"

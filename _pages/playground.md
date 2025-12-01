@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "Developer Playground"
+title: "Playground"
 permalink: /playground/
-excerpt: "Interactive tools and mini demos — API testing, code formatting, and more"
+excerpt: "Random experiments and developer tools. Sometimes useful. Always educational."
+classes: wide
 ---
 
 <style>
@@ -163,7 +164,7 @@ excerpt: "Interactive tools and mini demos — API testing, code formatting, and
 
 ---
 
-## Quick Tools Overview
+<!-- ## Quick Tools Overview
 
 <div class="tool-grid">
   <div class="tool-card">
@@ -179,10 +180,6 @@ excerpt: "Interactive tools and mini demos — API testing, code formatting, and
     <p>Encode and decode Base64 strings. Useful for API authentication and data transmission.</p>
   </div>
   <div class="tool-card">
-    <h3>🔗 URL Encoder/Decoder</h3>
-    <p>Encode and decode URL parameters for API testing and web development.</p>
-  </div>
-  <div class="tool-card">
     <h3>🧮 Subnet Calculator</h3>
     <p>Calculate network information, subnet masks, and IP ranges for network configuration.</p>
   </div>
@@ -192,14 +189,13 @@ excerpt: "Interactive tools and mini demos — API testing, code formatting, and
   </div>
 </div>
 
----
+--- -->
 
 <div class="tab-container">
   <div class="tab-buttons">
     <button class="tab-button active" onclick="switchTab('api-tester')">API Tester</button>
     <button class="tab-button" onclick="switchTab('json-formatter')">JSON Formatter</button>
     <button class="tab-button" onclick="switchTab('base64')">Base64 Tool</button>
-    <button class="tab-button" onclick="switchTab('url-encoder')">URL Encoder</button>
     <button class="tab-button" onclick="switchTab('subnet-calc')">Subnet Calculator</button>
     <button class="tab-button" onclick="switchTab('uuid-gen')">UUID Generator</button>
   </div>
@@ -277,25 +273,6 @@ excerpt: "Interactive tools and mini demos — API testing, code formatting, and
       <button class="btn-playground btn-secondary" onclick="clearBase64()">Clear</button>
 
       <div id="base64Output" class="output-box" style="display: none;"></div>
-    </div>
-  </div>
-
-  <!-- URL Encoder -->
-  <div id="url-encoder" class="tab-content">
-    <div class="tool-section">
-      <h2>🔗 URL Encoder/Decoder</h2>
-      <p>Encode and decode URL parameters for API testing and web development.</p>
-
-      <div class="input-group">
-        <label>Input Text</label>
-        <textarea id="urlInput" placeholder="Enter URL or text to encode/decode"></textarea>
-      </div>
-
-      <button class="btn-playground" onclick="encodeURL()">Encode URL</button>
-      <button class="btn-playground" onclick="decodeURL()">Decode URL</button>
-      <button class="btn-playground btn-secondary" onclick="clearURL()">Clear</button>
-
-      <div id="urlOutput" class="output-box" style="display: none;"></div>
     </div>
   </div>
 
@@ -505,48 +482,6 @@ function clearBase64() {
   document.getElementById('base64Output').style.display = 'none';
 }
 
-// URL Encoder
-function encodeURL() {
-  const input = document.getElementById('urlInput').value;
-  const output = document.getElementById('urlOutput');
-  output.style.display = 'block';
-
-  if (!input) {
-    output.className = 'output-box error';
-    output.textContent = 'Error: Please enter text to encode';
-    return;
-  }
-
-  const encoded = encodeURIComponent(input);
-  output.className = 'output-box success';
-  output.textContent = encoded;
-}
-
-function decodeURL() {
-  const input = document.getElementById('urlInput').value;
-  const output = document.getElementById('urlOutput');
-  output.style.display = 'block';
-
-  if (!input) {
-    output.className = 'output-box error';
-    output.textContent = 'Error: Please enter URL to decode';
-    return;
-  }
-
-  try {
-    const decoded = decodeURIComponent(input);
-    output.className = 'output-box success';
-    output.textContent = decoded;
-  } catch (error) {
-    output.className = 'output-box error';
-    output.textContent = `Error: Invalid URL encoding`;
-  }
-}
-
-function clearURL() {
-  document.getElementById('urlInput').value = '';
-  document.getElementById('urlOutput').style.display = 'none';
-}
 
 // Subnet Calculator
 function calculateSubnet() {
