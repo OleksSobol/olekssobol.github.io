@@ -56,16 +56,6 @@ Preview any template below. You can customize everything later.
   <div class="project-desc">Bold landing page with premium branding style.</div>
 </a>
 
-<a href="/assets/templates/pato-master/index.html" class="project-card" target="_blank" rel="noopener">
-  <div class="project-title">Pato</div>
-  <div class="project-desc">Rich animations, reservations, and multi-page layout.</div>
-</a>
-
-<a href="/assets/templates/resta-master/index.html" class="project-card" target="_blank" rel="noopener">
-  <div class="project-title">Resta</div>
-  <div class="project-desc">Clean and bright restaurant template with blog pages.</div>
-</a>
-
 <a href="/assets/templates/risotto-master/index.html" class="project-card" target="_blank" rel="noopener">
   <div class="project-title">Risotto</div>
   <div class="project-desc">High-quality Italian restaurant template.</div>
@@ -84,10 +74,7 @@ Preview any template below. You can customize everything later.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
 
-<a href="/assets/templates/iPortfolio-1.0.0/index.html" class="project-card" target="_blank" rel="noopener">
-  <div class="project-title">iPortfolio 1.0.0</div>
-  <div class="project-desc">Simple portfolio template ideal for freelancers or creators.</div>
-</a>
+  <p>Coming soon</p>
 
 </div>
 
