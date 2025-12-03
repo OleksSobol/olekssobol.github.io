@@ -83,9 +83,9 @@ Refactored code
 - Initial commit
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
-- Update Boot.dev stats
-- Update Boot.dev stats
-- Update latest commits
+- fix: remove some templates
+- feat: add templates page with 13 templates
+- Rebuild site with Neo Hacker theme
 - Update Boot.dev stats
 - Update latest commits
 
@@ -126,9 +126,9 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- feat: disabled RSVP for right now
 - update: added more functions to rsvp script
 - update: added more functions to rsvp script
 - update: added more functions to rsvp script
 - update: added more functions to rsvp script
-- feat: added calendar event to google scri[pt
 
