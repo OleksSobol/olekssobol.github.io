@@ -95,3 +95,9 @@ Random experiments, automation scripts, and tools I build for fun. Sometimes use
   <a href="/about/" class="btn btn--primary">About Me</a>
   <a href="/assets/resume.pdf" class="btn btn--primary">Resume</a>
 </div>
+<!--BOOTDEV_STATS_START-->
+### Boot.dev Stats
+- Level: 67
+- XP Today: -2905
+- Total XP: 2126
+<!--BOOTDEV_STATS_END-->
