@@ -83,11 +83,11 @@ Refactored code
 - Initial commit
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
+- Update Boot.dev stats
+- Update latest commits
 - fix: remove some templates
 - feat: add templates page with 13 templates
 - Rebuild site with Neo Hacker theme
-- Update Boot.dev stats
-- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
