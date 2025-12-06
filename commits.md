@@ -87,7 +87,7 @@ Refactored code
 - Update latest commits
 - Update Boot.dev stats
 - Update latest commits
-- fix: remove some templates
+- Update Boot.dev stats
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
