@@ -84,10 +84,10 @@ Refactored code
 
 ## [olekssobol.github.io](https://github.com/OleksSobol/olekssobol.github.io)
 - Update Boot.dev stats
-- Update latest commits
 - Update Boot.dev stats
 - Update latest commits
 - Update Boot.dev stats
+- Update latest commits
 
 ## [PatatapClone](https://github.com/OleksSobol/PatatapClone)
 - Create README.md
@@ -126,8 +126,8 @@ Add classics
 - I: Dune quote update v2
 
 ## [wedding-website](https://github.com/OleksSobol/wedding-website)
+- Update index.html, got rid of. Montana description
 - feat: disabled RSVP for right now
-- update: added more functions to rsvp script
 - update: added more functions to rsvp script
 - update: added more functions to rsvp script
 - update: added more functions to rsvp script
