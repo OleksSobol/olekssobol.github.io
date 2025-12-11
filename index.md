@@ -97,7 +97,7 @@ Random experiments, automation scripts, and tools I build for fun. Sometimes use
 </div>
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
-- Level: 68
-- XP Today: 412
-- Total XP: 5657
+- Level: 69
+- XP Today: -5520
+- Total XP: 137
 <!--BOOTDEV_STATS_END-->
