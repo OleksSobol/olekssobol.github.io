@@ -98,6 +98,6 @@ Random experiments, automation scripts, and tools I build for fun. Sometimes use
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 - Level: 71
-- XP Today: 0
-- Total XP: 4552
+- XP Today: 96
+- Total XP: 4648
 <!--BOOTDEV_STATS_END-->
