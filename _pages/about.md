@@ -6,76 +6,13 @@ excerpt: "From network cables to backend automation — building systems that sa
 classes: wide
 ---
 
-<style>
-.achievement-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-.achievement-card {
-  background: linear-gradient(135deg, #1a2332 0%, #1a1a1a 100%);
-  border: 1px solid #3a3a3a;
-  border-radius: 8px;
-  padding: 1.5rem;
-  text-align: center;
-  transition: all 0.2s;
-}
-.achievement-card:hover {
-  border-color: #5bb8d4;
-  transform: translateY(-4px);
-}
-.achievement-number {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #5bb8d4;
-}
-.achievement-label {
-  font-size: 0.85rem;
-  color: #b0b0b0;
-  margin-top: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.skills-section {
-  margin: 2rem 0;
-}
-.skill-category {
-  margin: 1.5rem 0;
-}
-.skill-category h4 {
-  color: #5bb8d4;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-.skill-tag {
-  background: #2d2d2d;
-  border: 1px solid #5bb8d4;
-  color: #5bb8d4;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.2s;
-}
-.skill-tag:hover {
-  background: #5bb8d4;
-  color: #fff;
-}
-</style>
-
 # Oleks Sobol
 
 Backend automation engineer. I build systems that eliminate manual work and let operations teams focus on what actually matters.
 
 ## The Short Version
 
-My path into software started with frustration. As a network engineer managing hundreds of devices, I watched colleagues spend hours on repetitive tasks that should have been automated. So I wrote my first Python script to configure network equipment in bulk. That script saved 15 hours every week.
+My path into software started with frustration. As a network engineer managing hundreds of devices, I watched colleagues spend hours on repetitive tasks that should have been automated. So I wrote my first Python script to configure network equipment in bulk. That script saved 5 hours every week.
 
 One script became ten. Ten became entire systems. What started as simple automation evolved into production-grade applications serving thousands of users. Today, my systems handle ISP customer onboarding, equipment management, and operational workflows — running in production with 99.9% uptime.
 
