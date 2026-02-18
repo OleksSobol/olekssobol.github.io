@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "Projects"
-    url: /projects/
+  - title: "Case Studies"
+    url: /case-studies/
+  - title: "Services"
+    url: /services/
   - title: "Blog"
     url: /blog/
-  - title: "Playground"
-    url: /playground/
-  - title: "About"
-    url: /about/
+  - title: "Contact"
+    url: /contact/

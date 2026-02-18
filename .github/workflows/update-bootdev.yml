@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add index.md _data/bootdev.json
+          git add _pages/lab-stats.md _data/bootdev.json
           git commit -m "Update Boot.dev stats" || echo "No changes"
           git push

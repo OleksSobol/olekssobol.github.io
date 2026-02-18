@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "Playground"
-permalink: /playground/
-excerpt: "Random experiments and developer tools. Sometimes useful. Always educational."
+permalink: /lab/playground/
+sitemap: false
+excerpt: "Interactive developer tools. API tester, JSON formatter, Base64 encoder, subnet calculator, UUID generator."
 classes: wide
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Post Editor"
-permalink: /post/
+permalink: /lab/post-editor/
+sitemap: false
 excerpt: "Create and edit blog posts directly from browser"
 ---
 

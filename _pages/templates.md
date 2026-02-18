@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Website Templates"
-permalink: /templates/
+permalink: /lab/templates/
+sitemap: false
 classes: wide
 ---
 

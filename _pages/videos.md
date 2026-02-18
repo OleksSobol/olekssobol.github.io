@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Aerial Drone Portfolio"
-permalink: /videos/
+permalink: /lab/aerial/
+sitemap: false
 excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
 ---
 

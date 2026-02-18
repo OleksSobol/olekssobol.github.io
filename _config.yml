@@ -1,7 +1,7 @@
 # Site Settings
 title: "Oleks Sobol"
 name: "Oleks Sobol"
-description: "Building systems at 2 AM. Breaking things until they work. Automating the chaos."
+description: "Backend automation engineer. Production systems serving 4000+ clients with 99.9% uptime."
 url: "https://olekssobol.github.io"
 baseurl: ""
 repository: "OleksSobol/olekssobol.github.io"
@@ -80,7 +80,7 @@ locale: "en-US"
 author:
   name: "Oleks Sobol"
   avatar: "/assets/images/avatar.png"
-  bio: "Backend engineer"
+  bio: "Automation engineer — I build systems that replace manual work"
   location: "Washington, USA"
   links:
     - label: "GitHub"
@@ -92,9 +92,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:olekssobol@gmail.com"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@Life2freedom"
 
 # Site Footer
 footer:
@@ -117,12 +114,9 @@ search_provider: lunr
 
 # Collections
 collections:
-  projects:
+  case-studies:
     output: true
-    permalink: /projects/:title/
-  playground:
-    output: true
-    permalink: /playground/:title/
+    permalink: /case-studies/:title/
 
 # Defaults
 defaults:
@@ -147,10 +141,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _case-studies
   - scope:
       path: ""
-      type: projects
+      type: case-studies
     values:
       layout: single
       author_profile: false
@@ -158,15 +152,6 @@ defaults:
       read_time: true
       toc: true
       toc_sticky: true
-  # _playground
-  - scope:
-      path: ""
-      type: playground
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      read_time: true
 
 # Category & Tag Archives
 category_archive:

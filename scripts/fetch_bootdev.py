@@ -52,7 +52,7 @@ with sync_playwright() as p:
 - Total XP: {xp_total}
 <!--BOOTDEV_STATS_END-->"""
 
-    index_file = "index.md"
+    index_file = "_pages/lab-stats.md"
     if os.path.exists(index_file):
         with open(index_file) as f:
             content = f.read()
