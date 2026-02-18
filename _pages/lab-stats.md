@@ -20,7 +20,7 @@ Backend development fundamentals, algorithms, and computer science through hands
 <img src="https://api.boot.dev/v1/users/public/0ad99ed2-be60-4b3b-8396-3c130c314deb/thumbnail" alt="Boot.dev Progress" style="margin-top: 1rem; max-width: 100%;" loading="lazy">
 
 <!--BOOTDEV_STATS_START-->
-### Current Stats
+### Boot.dev Stats
 - Level: 71
 - XP Today: 0
 - Total XP: 4648
