@@ -22,13 +22,13 @@ classes: wide
   transition: all 0.2s;
 }
 .achievement-card:hover {
-  border-color: #52adc8;
+  border-color: #5bb8d4;
   transform: translateY(-4px);
 }
 .achievement-number {
   font-size: 2rem;
   font-weight: 700;
-  color: #52adc8;
+  color: #5bb8d4;
 }
 .achievement-label {
   font-size: 0.85rem;
@@ -44,7 +44,7 @@ classes: wide
   margin: 1.5rem 0;
 }
 .skill-category h4 {
-  color: #52adc8;
+  color: #5bb8d4;
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
@@ -55,8 +55,8 @@ classes: wide
 }
 .skill-tag {
   background: #2d2d2d;
-  border: 1px solid #52adc8;
-  color: #52adc8;
+  border: 1px solid #5bb8d4;
+  color: #5bb8d4;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   font-size: 0.9rem;
@@ -64,7 +64,7 @@ classes: wide
   transition: all 0.2s;
 }
 .skill-tag:hover {
-  background: #52adc8;
+  background: #5bb8d4;
   color: #fff;
 }
 </style>

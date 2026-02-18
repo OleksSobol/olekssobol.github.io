@@ -22,11 +22,11 @@ classes: wide
   transition: all 0.2s;
 }
 .tool-card:hover {
-  border-color: #52adc8;
+  border-color: #5bb8d4;
   transform: translateY(-2px);
 }
 .tool-card h3 {
-  color: #52adc8;
+  color: #5bb8d4;
   margin-top: 0;
   font-size: 1.3rem;
 }
@@ -61,7 +61,7 @@ classes: wide
   resize: vertical;
 }
 .btn-playground {
-  background: #52adc8;
+  background: #5bb8d4;
   color: #fff;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -137,8 +137,8 @@ classes: wide
   background: #3a3a3a;
 }
 .tab-button.active {
-  background: #52adc8;
-  border-color: #52adc8;
+  background: #5bb8d4;
+  border-color: #5bb8d4;
   color: #fff;
 }
 .tab-content {

@@ -9,7 +9,7 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
 <style>
 .cert-banner {
   background: linear-gradient(135deg, #1a2332 0%, #1a1a1a 100%);
-  border-left: 4px solid #52adc8;
+  border-left: 4px solid #5bb8d4;
   padding: 1.2rem 1.5rem;
   border-radius: 8px;
   margin: 2rem 0;
@@ -27,7 +27,7 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
   color: #b0b0b0;
 }
 .cert-text strong {
-  color: #52adc8;
+  color: #5bb8d4;
 }
 .stats-row {
   display: grid;
@@ -44,13 +44,13 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
   transition: all 0.2s;
 }
 .stat-card:hover {
-  border-color: #52adc8;
+  border-color: #5bb8d4;
   transform: translateY(-2px);
 }
 .stat-number {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #52adc8;
+  color: #5bb8d4;
 }
 .stat-label {
   font-size: 0.8rem;
@@ -76,7 +76,7 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
   transition: all 0.3s;
 }
 .video-card:hover {
-  border-color: #52adc8;
+  border-color: #5bb8d4;
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.4);
 }
@@ -84,7 +84,7 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
   margin: 0.5rem 0 0.8rem;
   font-size: 1.1rem;
   line-height: 1.3;
-  color: #52adc8;
+  color: #5bb8d4;
   font-weight: 600;
 }
 .responsive-video {
@@ -250,7 +250,7 @@ excerpt: "Cinematic 4K drone footage — FAA Part 107 certified remote pilot"
 
 ## Services & Collaboration
 
-<div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border: 1px solid #52adc8; border-radius: 8px; padding: 2rem; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border: 1px solid #5bb8d4; border-radius: 8px; padding: 2rem; margin: 2rem 0;">
 
 ### Available for Hire
 
@@ -272,7 +272,7 @@ Include: location, project purpose, desired deliverables, and timeline.
 
 ## Flight Operations & Safety
 
-<div style="background: linear-gradient(135deg, #1a2332 0%, #1a1a1a 100%); border-left: 4px solid #52adc8; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, #1a2332 0%, #1a1a1a 100%); border-left: 4px solid #5bb8d4; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
 
 **Professional Standards:**
 - ✈️ Pre-flight airspace authorization & NOTAM review
@@ -291,5 +291,5 @@ Every flight follows FAA regulations and industry best practices. Safety is neve
 <div style="text-align: center; margin: 3rem 0 2rem;">
   <a href="https://www.youtube.com/@Life2freedom" class="btn btn--primary" style="margin: 0.5rem;">View More on YouTube</a>
   <a href="/contact/" class="btn btn--info" style="margin: 0.5rem;">Request Quote</a>
-  <a href="/" class="btn btn--secondary" style="margin: 0.5rem; background: #3a3a3a; border: 1px solid #52adc8; color: #52adc8;">Back to Portfolio</a>
+  <a href="/" class="btn btn--secondary" style="margin: 0.5rem; background: #3a3a3a; border: 1px solid #5bb8d4; color: #5bb8d4;">Back to Portfolio</a>
 </div>

@@ -7,7 +7,7 @@ author_profile: false
 classes: wide
 ---
 
-<pre style="background: var(--code-bg, #1e1e1e); border: 1px solid var(--border-color, #3a3a3a); border-radius: 6px; padding: 1.5rem; color: var(--accent-primary, #5cffd6); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; line-height: 1.8;">
+<pre style="background: var(--code-bg, #1e1e1e); border: 1px solid var(--border-color, #3a3a3a); border-radius: 6px; padding: 1.5rem; color: var(--accent-primary, #64d4b2); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; line-height: 1.8;">
 > cd /lab
 > ls -la
 
