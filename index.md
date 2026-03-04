@@ -68,6 +68,11 @@ Production automation serving 4000+ clients. 95% faster onboarding. 99.9% uptime
   <div class="project-desc">ISP equipment management automation. Multi-threaded processing saves 15+ hours per week per technician.</div>
 </a>
 
+<a href="/case-studies/codeleder/" class="project-card">
+  <div class="project-title">CodeLedger</div>
+  <div class="project-desc">Offline-first Flutter app for freelance developer billing — timer and manual time entry, editable PDF invoices, AES-256 encrypted Google Drive backup. Zero subscriptions.</div>
+</a>
+
 </div>
 
 [View All Case Studies](/case-studies/){: .btn .btn--primary}

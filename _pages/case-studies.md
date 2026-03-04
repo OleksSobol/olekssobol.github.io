@@ -40,6 +40,21 @@ Detailed breakdowns of automation systems I've built for real-world use — incl
   </div>
 </a>
 
+
+<a href="/case-studies/codeleder/" class="project-card">
+  <div class="project-title">CodeLedger</div>
+  <div class="project-desc">
+    Offline-first time tracking and invoicing app for freelance developers. Built with Flutter — manual and timer-based time entry, editable PDF invoices, AES-256 encrypted Google Drive backup.
+  </div>
+  <div style="margin-top: 0.75rem;">
+    <span class="tech-badge">Flutter</span>
+    <span class="tech-badge">Dart</span>
+    <span class="tech-badge">SQLite</span>
+    <span class="tech-badge">AES-256</span>
+    <span class="tech-badge">Google Drive API</span>
+  </div>
+</a>
+
 </div>
 
 ---
