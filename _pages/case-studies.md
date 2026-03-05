@@ -41,6 +41,20 @@ Detailed breakdowns of automation systems I've built for real-world use — incl
 </a>
 
 
+<a href="/case-studies/expenses-tracker/" class="project-card">
+  <div class="project-title">Expenses Tracker</div>
+  <div class="project-desc">
+    Privacy-first personal finance app for Android. Log transactions, track recurring bills with reminders, scan receipts with on-device OCR, and visualize spending — fully offline, no account required.
+  </div>
+  <div style="margin-top: 0.75rem;">
+    <span class="tech-badge">Flutter</span>
+    <span class="tech-badge">Dart</span>
+    <span class="tech-badge">SQLite</span>
+    <span class="tech-badge">ML Kit OCR</span>
+    <span class="tech-badge">fl_chart</span>
+  </div>
+</a>
+
 <a href="/case-studies/codeleder/" class="project-card">
   <div class="project-title">CodeLedger</div>
   <div class="project-desc">
