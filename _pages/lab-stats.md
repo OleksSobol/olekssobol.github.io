@@ -22,7 +22,7 @@ Backend development fundamentals, algorithms, and computer science through hands
 <!--BOOTDEV_STATS_START-->
 ### Boot.dev Stats
 - Level: 72
-- XP Today: -5317
+- XP Today: 0
 - Total XP: 431
 <!--BOOTDEV_STATS_END-->
 
